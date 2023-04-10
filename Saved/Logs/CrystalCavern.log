@@ -1,4 +1,4 @@
-﻿Log file open, 04/09/23 14:24:59
+﻿Log file open, 04/09/23 21:19:49
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -10,7 +10,7 @@ LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: CrystalCavern
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.529976
+LogStats: Stats thread started at 0.528261
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -93,7 +93,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.097s to configure plugins.
+LogStreaming: Display: Took  0.093s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -150,807 +150,388 @@ LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
 LogStreaming: Display: Took  0.000s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2023.04.09-18.24.59:499][  0]LogInit: Selected Device Profile: [Windows]
-[2023.04.09-18.24.59:499][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2023.04.09-18.24.59:504][  0]LogHAL: Display: Platform has ~ 32 GB [34273423360 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2023.04.09-18.24.59:504][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
-[2023.04.09-18.24.59:504][  0]LogInit: Going up to parent DeviceProfile []
-[2023.04.09-18.24.59:504][  0]LogInit: Computer: DESKTOP-U1RK44O
-[2023.04.09-18.24.59:504][  0]LogInit: User: dcalt
-[2023.04.09-18.24.59:504][  0]LogInit: CPU Page size=4096, Cores=6
-[2023.04.09-18.24.59:504][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2023.04.09-18.24.59:505][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
-[2023.04.09-18.24.59:505][  0]LogMemory: Platform Memory Stats for Windows
-[2023.04.09-18.24.59:505][  0]LogMemory: Process Physical Memory: 102.61 MB used, 102.62 MB peak
-[2023.04.09-18.24.59:505][  0]LogMemory: Process Virtual Memory: 85.92 MB used, 85.92 MB peak
-[2023.04.09-18.24.59:505][  0]LogMemory: Physical Memory: 10779.62 MB used,  21906.06 MB free, 32685.68 MB total
-[2023.04.09-18.24.59:505][  0]LogMemory: Virtual Memory: 4641.39 MB used,  21906.06 MB free, 134217728.00 MB total
-[2023.04.09-18.24.59:526][  0]LogInit: Using OS detected language (en-US).
-[2023.04.09-18.24.59:526][  0]LogInit: Using OS detected locale (en-US).
-[2023.04.09-18.24.59:527][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2023.04.09-18.24.59:780][  0]LogStreaming: Display: Took  0.253s to InitEngineTextLocalization.
-[2023.04.09-18.24.59:780][  0]LogInit: Setting process to per monitor DPI aware
-[2023.04.09-18.24.59:805][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2023.04.09-18.24.59:805][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2023.04.09-18.24.59:956][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2023.04.09-18.24.59:956][  0]LogD3D11RHI: D3D11 adapters:
-[2023.04.09-18.25.00:067][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 3060' (Feature Level 11_0)
-[2023.04.09-18.25.00:067][  0]LogD3D11RHI:       12129/0/16342 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2023.04.09-18.25.00:068][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2023.04.09-18.25.00:068][  0]LogD3D11RHI:       0/0/16342 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2023.04.09-18.25.00:068][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2023.04.09-18.25.00:075][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2023.04.09-18.25.00:075][  0]LogD3D11RHI:     GPU DeviceId: 0x2504 (for the marketing name, search the web for "GPU Device Id")
-[2023.04.09-18.25.00:075][  0]LogWindows: EnumDisplayDevices:
-[2023.04.09-18.25.00:075][  0]LogWindows:    0. 'NVIDIA GeForce RTX 3060' (P:1 D:1)
-[2023.04.09-18.25.00:075][  0]LogWindows:    1. 'NVIDIA GeForce RTX 3060' (P:0 D:1)
-[2023.04.09-18.25.00:075][  0]LogWindows:    2. 'NVIDIA GeForce RTX 3060' (P:0 D:0)
-[2023.04.09-18.25.00:075][  0]LogWindows:    3. 'NVIDIA GeForce RTX 3060' (P:0 D:0)
-[2023.04.09-18.25.00:075][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2023.04.09-18.25.00:075][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 3060
-[2023.04.09-18.25.00:075][  0]LogD3D11RHI:   Driver Version: 526.98 (internal:31.0.15.2698, unified:526.98)
-[2023.04.09-18.25.00:075][  0]LogD3D11RHI:      Driver Date: 11-13-2022
-[2023.04.09-18.25.00:075][  0]LogRHI: Texture pool is 8490 MB (70% of 12129 MB)
-[2023.04.09-18.25.00:131][  0]LogD3D11RHI: Async texture creation enabled
-[2023.04.09-18.25.00:143][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2023.04.09-18.25.00:149][  0]LogShaderCompilers: Guid format shader working directory is 7 characters bigger than the processId version (../../../../../../GameDev/CrystalCavern/Intermediate/Shaders/WorkingDirectory/1316/).
-[2023.04.09-18.25.00:149][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/dcalt/AppData/Local/Temp/UnrealShaderWorkingDir/1FF28D8344069A3C71073BBC2C90015E/'.
-[2023.04.09-18.25.00:328][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2023.04.09-18.25.00:339][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2023.04.09-18.25.00:347][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2023.04.09-18.25.00:355][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2023.04.09-18.25.00:363][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2023.04.09-18.25.00:371][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2023.04.09-18.25.00:379][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2023.04.09-18.25.00:387][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2023.04.09-18.25.00:391][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2023.04.09-18.25.00:437][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2023.04.09-18.25.00:437][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2023.04.09-18.25.00:437][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2023.04.09-18.25.00:437][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2023.04.09-18.25.00:437][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2023.04.09-18.25.00:437][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2023.04.09-18.25.00:437][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2023.04.09-18.25.00:437][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2023.04.09-18.25.00:437][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2023.04.09-18.25.00:437][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2023.04.09-18.25.00:437][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2023.04.09-18.25.00:437][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2023.04.09-18.25.00:437][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2023.04.09-18.25.00:437][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2023.04.09-18.25.00:437][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2023.04.09-18.25.00:437][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2023.04.09-18.25.00:437][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2023.04.09-18.25.00:437][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2023.04.09-18.25.00:438][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2023.04.09-18.25.00:488][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2023.04.09-18.25.00:488][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2023.04.09-18.25.00:502][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2023.04.09-18.25.00:502][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2023.04.09-18.25.00:509][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2023.04.09-18.25.00:517][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2023.04.09-18.25.00:524][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2023.04.09-18.25.00:532][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2023.04.09-18.25.00:538][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2023.04.09-18.25.00:538][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2023.04.09-18.25.00:574][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2023.04.09-18.25.00:574][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2023.04.09-18.25.00:574][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2023.04.09-18.25.01:143][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2023.04.09-18.25.01:174][  0]LogDerivedDataCache: Loaded boot cache 0.03s 71MB C:/Users/dcalt/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2023.04.09-18.25.01:175][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/dcalt/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
-[2023.04.09-18.25.01:175][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../GameDev/CrystalCavern/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2023.04.09-18.25.01:175][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2023.04.09-18.25.01:175][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../GameDev/CrystalCavern/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2023.04.09-18.25.01:175][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2023.04.09-18.25.01:184][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2023.04.09-18.25.01:196][  0]LogDerivedDataCache: Using Local data cache path C:/Users/dcalt/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2023.04.09-18.25.01:196][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2023.04.09-18.25.01:196][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2023.04.09-18.25.01:208][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2023.04.09-18.25.01:209][  0]LogSlate: Using FreeType 2.6.0
-[2023.04.09-18.25.01:209][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2023.04.09-18.25.01:267][  0]LogAssetRegistry: FAssetRegistry took 0.0247 seconds to start up
-[2023.04.09-18.25.01:480][  0]LogInit: Selected Device Profile: [Windows]
-[2023.04.09-18.25.01:561][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2023.04.09-18.25.01:564][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2023.04.09-18.25.01:564][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2023.04.09-18.25.01:564][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2023.04.09-18.25.01:564][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2023.04.09-18.25.01:576][  0]LogNetVersion: CrystalCavern 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1954901415)
-[2023.04.09-18.25.01:878][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.049311 seconds
-[2023.04.09-18.25.01:882][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
-[2023.04.09-18.25.01:882][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
-[2023.04.09-18.25.01:882][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2023.04.09-18.25.02:449][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2023.04.09-18.25.02:466][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2023.04.09-18.25.02:570][  0]SourceControl: Source control is disabled
-[2023.04.09-18.25.02:570][  0]SourceControl: Source control is disabled
-[2023.04.09-18.25.02:571][  0]SourceControl: Source control is disabled
-[2023.04.09-18.25.02:572][  0]SourceControl: Source control is disabled
-[2023.04.09-18.25.02:699][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2023.04.09-18.25.02:735][  0]LogOcInput: OculusInput pre-init called
-[2023.04.09-18.25.02:775][  0]LogEngine: Initializing Engine...
-[2023.04.09-18.25.02:776][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2023.04.09-18.25.02:776][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2023.04.09-18.25.02:776][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2023.04.09-18.25.02:776][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2023.04.09-18.25.02:776][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2023.04.09-18.25.02:901][  0]LogInit: Initializing FReadOnlyCVARCache
-[2023.04.09-18.25.02:909][  0]LogAIModule: Creating AISystem for world Untitled
-[2023.04.09-18.25.02:924][  0]LogInit: XAudio2 using '32S321 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2023.04.09-18.25.02:933][  0]LogInit: FAudioDevice initialized.
-[2023.04.09-18.25.02:933][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2023.04.09-18.25.02:963][  0]LogDerivedDataCache: Saved boot cache 0.03s 71MB C:/Users/dcalt/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2023.04.09-18.25.02:965][  0]LogInit: Texture streaming: Enabled
-[2023.04.09-18.25.02:976][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2023.04.09-18.25.02:985][  0]LogInit: Transaction tracking system initialized
-[2023.04.09-18.25.02:997][  0]BlueprintLog: New page: Editor Load
-[2023.04.09-18.25.03:067][  0]LocalizationService: Localization service is disabled
-[2023.04.09-18.25.03:231][  0]LogFileCache: Scanning file cache for directory 'C:/GameDev/CrystalCavern/Content/' took 0.01s
-[2023.04.09-18.25.03:231][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2023.04.09-18.25.03:231][  0]LogCook: Display: Mobile HDR setting 1
-[2023.04.09-18.25.03:231][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2023.04.09-18.25.03:231][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2023.04.09-18.25.03:231][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2023.04.09-18.25.03:231][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2023.04.09-18.25.03:231][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2023.04.09-18.25.03:305][  0]SourceControl: Source control is disabled
-[2023.04.09-18.25.03:311][  0]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 C:/Program Files/Epic Games/UE_4.20/FeaturePacks/StarterContent.upack)
-[2023.04.09-18.25.03:314][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
-[2023.04.09-18.25.03:320][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Architecture/Floor_400x400.uasset"
-[2023.04.09-18.25.03:323][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Architecture/Pillar_50x500.uasset"
-[2023.04.09-18.25.03:328][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
-[2023.04.09-18.25.03:332][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Architecture/Wall_400x200.uasset"
-[2023.04.09-18.25.03:337][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Architecture/Wall_400x300.uasset"
-[2023.04.09-18.25.03:342][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Architecture/Wall_400x400.uasset"
-[2023.04.09-18.25.03:345][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Architecture/Wall_500x500.uasset"
-[2023.04.09-18.25.03:350][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
-[2023.04.09-18.25.03:354][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
-[2023.04.09-18.25.03:358][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
-[2023.04.09-18.25.03:362][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
-[2023.04.09-18.25.03:366][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Audio/Collapse01.uasset"
-[2023.04.09-18.25.03:370][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Audio/Collapse02.uasset"
-[2023.04.09-18.25.03:372][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Audio/Collapse_Cue.uasset"
-[2023.04.09-18.25.03:376][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Audio/Explosion01.uasset"
-[2023.04.09-18.25.03:380][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Audio/Explosion02.uasset"
-[2023.04.09-18.25.03:381][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Audio/Explosion_Cue.uasset"
-[2023.04.09-18.25.03:386][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Audio/Fire01.uasset"
-[2023.04.09-18.25.03:389][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Audio/Fire01_Cue.uasset"
-[2023.04.09-18.25.03:394][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Audio/Fire_Sparks01.uasset"
-[2023.04.09-18.25.03:397][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
-[2023.04.09-18.25.03:401][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Audio/Light01.uasset"
-[2023.04.09-18.25.03:405][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Audio/Light01_Cue.uasset"
-[2023.04.09-18.25.03:410][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Audio/Light02.uasset"
-[2023.04.09-18.25.03:415][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Audio/Light02_Cue.uasset"
-[2023.04.09-18.25.03:420][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Audio/Smoke01.uasset"
-[2023.04.09-18.25.03:423][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Audio/Smoke01_Cue.uasset"
-[2023.04.09-18.25.03:427][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
-[2023.04.09-18.25.03:433][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Audio/Starter_Birds01.uasset"
-[2023.04.09-18.25.03:443][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Audio/Starter_Music01.uasset"
-[2023.04.09-18.25.03:446][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
-[2023.04.09-18.25.03:452][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Audio/Starter_Wind05.uasset"
-[2023.04.09-18.25.03:457][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Audio/Starter_Wind06.uasset"
-[2023.04.09-18.25.03:463][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Audio/Steam01.uasset"
-[2023.04.09-18.25.03:467][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Audio/Steam01_Cue.uasset"
-[2023.04.09-18.25.03:471][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
-[2023.04.09-18.25.03:475][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
-[2023.04.09-18.25.03:480][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
-[2023.04.09-18.25.03:484][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
-[2023.04.09-18.25.03:487][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
-[2023.04.09-18.25.03:491][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
-[2023.04.09-18.25.03:495][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
-[2023.04.09-18.25.03:499][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
-[2023.04.09-18.25.03:503][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
-[2023.04.09-18.25.03:507][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
-[2023.04.09-18.25.03:511][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
-[2023.04.09-18.25.03:515][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
-[2023.04.09-18.25.03:520][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
-[2023.04.09-18.25.03:524][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
-[2023.04.09-18.25.03:534][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
-[2023.04.09-18.25.03:538][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
-[2023.04.09-18.25.03:627][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
-[2023.04.09-18.25.03:631][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Maps/Advanced_Lighting.umap"
-[2023.04.09-18.25.03:636][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset"
-[2023.04.09-18.25.03:641][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Maps/Minimal_Default.umap"
-[2023.04.09-18.25.03:647][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset"
-[2023.04.09-18.25.03:651][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Maps/StarterMap.umap"
-[2023.04.09-18.25.03:683][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap_BuiltData.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Maps/StarterMap_BuiltData.uasset"
-[2023.04.09-18.25.03:689][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Materials/M_AssetPlatform.uasset"
-[2023.04.09-18.25.03:694][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Materials/M_Basic_Floor.uasset"
-[2023.04.09-18.25.03:698][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Materials/M_Basic_Wall.uasset"
-[2023.04.09-18.25.03:702][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
-[2023.04.09-18.25.03:706][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
-[2023.04.09-18.25.03:709][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
-[2023.04.09-18.25.03:713][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
-[2023.04.09-18.25.03:717][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
-[2023.04.09-18.25.03:721][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
-[2023.04.09-18.25.03:726][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
-[2023.04.09-18.25.03:730][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
-[2023.04.09-18.25.03:734][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
-[2023.04.09-18.25.03:739][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
-[2023.04.09-18.25.03:743][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
-[2023.04.09-18.25.03:747][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
-[2023.04.09-18.25.03:751][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
-[2023.04.09-18.25.03:755][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
-[2023.04.09-18.25.03:758][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Materials/M_Glass.uasset"
-[2023.04.09-18.25.03:762][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Materials/M_Ground_Grass.uasset"
-[2023.04.09-18.25.03:766][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
-[2023.04.09-18.25.03:770][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Materials/M_Ground_Moss.uasset"
-[2023.04.09-18.25.03:774][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
-[2023.04.09-18.25.03:777][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
-[2023.04.09-18.25.03:781][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
-[2023.04.09-18.25.03:785][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Materials/M_Metal_Copper.uasset"
-[2023.04.09-18.25.03:789][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Materials/M_Metal_Gold.uasset"
-[2023.04.09-18.25.03:792][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Materials/M_Metal_Rust.uasset"
-[2023.04.09-18.25.03:796][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Materials/M_Metal_Steel.uasset"
-[2023.04.09-18.25.03:800][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
-[2023.04.09-18.25.03:804][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
-[2023.04.09-18.25.03:808][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
-[2023.04.09-18.25.03:812][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Materials/M_Rock_Slate.uasset"
-[2023.04.09-18.25.03:815][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
-[2023.04.09-18.25.03:819][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
-[2023.04.09-18.25.03:823][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
-[2023.04.09-18.25.03:827][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Materials/M_Tech_Panel.uasset"
-[2023.04.09-18.25.03:831][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Materials/M_Water_Lake.uasset"
-[2023.04.09-18.25.03:835][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Materials/M_Water_Ocean.uasset"
-[2023.04.09-18.25.03:838][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
-[2023.04.09-18.25.03:843][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
-[2023.04.09-18.25.03:846][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Materials/M_Wood_Oak.uasset"
-[2023.04.09-18.25.03:850][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Materials/M_Wood_Pine.uasset"
-[2023.04.09-18.25.03:854][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
-[2023.04.09-18.25.03:858][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
-[2023.04.09-18.25.03:863][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Particles/P_Explosion.uasset"
-[2023.04.09-18.25.03:868][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Particles/P_Fire.uasset"
-[2023.04.09-18.25.03:871][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Particles/P_Smoke.uasset"
-[2023.04.09-18.25.03:875][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Particles/P_Sparks.uasset"
-[2023.04.09-18.25.03:879][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Particles/P_Steam_Lit.uasset"
-[2023.04.09-18.25.03:883][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Particles/Materials/M_Burst.uasset"
-[2023.04.09-18.25.03:887][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
-[2023.04.09-18.25.03:892][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
-[2023.04.09-18.25.03:896][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
-[2023.04.09-18.25.03:900][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
-[2023.04.09-18.25.03:903][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
-[2023.04.09-18.25.03:907][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
-[2023.04.09-18.25.03:911][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
-[2023.04.09-18.25.03:916][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
-[2023.04.09-18.25.03:920][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Particles/Materials/M_Spark.uasset"
-[2023.04.09-18.25.03:924][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Props/MaterialSphere.uasset"
-[2023.04.09-18.25.03:931][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Props/SM_Bush.uasset"
-[2023.04.09-18.25.03:935][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Props/SM_Chair.uasset"
-[2023.04.09-18.25.03:939][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Props/SM_CornerFrame.uasset"
-[2023.04.09-18.25.03:943][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Props/SM_Couch.uasset"
-[2023.04.09-18.25.03:947][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Props/SM_Door.uasset"
-[2023.04.09-18.25.03:950][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Props/SM_DoorFrame.uasset"
-[2023.04.09-18.25.03:956][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Props/SM_GlassWindow.uasset"
-[2023.04.09-18.25.03:961][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
-[2023.04.09-18.25.03:965][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
-[2023.04.09-18.25.03:970][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
-[2023.04.09-18.25.03:974][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Props/SM_PillarFrame.uasset"
-[2023.04.09-18.25.03:978][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Props/SM_PillarFrame300.uasset"
-[2023.04.09-18.25.03:982][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Props/SM_Rock.uasset"
-[2023.04.09-18.25.03:985][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Props/SM_Shelf.uasset"
-[2023.04.09-18.25.03:989][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Props/SM_Stairs.uasset"
-[2023.04.09-18.25.03:994][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Props/SM_Statue.uasset"
-[2023.04.09-18.25.04:007][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Props/SM_TableRound.uasset"
-[2023.04.09-18.25.04:011][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Props/SM_WindowFrame.uasset"
-[2023.04.09-18.25.04:017][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Props/Materials/M_Bush.uasset"
-[2023.04.09-18.25.04:021][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Props/Materials/M_Chair.uasset"
-[2023.04.09-18.25.04:024][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Props/Materials/M_Door.uasset"
-[2023.04.09-18.25.04:028][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Props/Materials/M_Frame.uasset"
-[2023.04.09-18.25.04:032][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Props/Materials/M_Lamp.uasset"
-[2023.04.09-18.25.04:036][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
-[2023.04.09-18.25.04:041][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
-[2023.04.09-18.25.04:045][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Props/Materials/M_Rock.uasset"
-[2023.04.09-18.25.04:049][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Props/Materials/M_Shelf.uasset"
-[2023.04.09-18.25.04:052][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Props/Materials/M_Statue.uasset"
-[2023.04.09-18.25.04:056][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
-[2023.04.09-18.25.04:060][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Props/Materials/M_TableRound.uasset"
-[2023.04.09-18.25.04:064][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Shapes/Shape_Cone.uasset"
-[2023.04.09-18.25.04:069][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Shapes/Shape_Cube.uasset"
-[2023.04.09-18.25.04:075][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
-[2023.04.09-18.25.04:080][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
-[2023.04.09-18.25.04:086][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Shapes/Shape_Pipe.uasset"
-[2023.04.09-18.25.04:090][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
-[2023.04.09-18.25.04:094][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
-[2023.04.09-18.25.04:097][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Shapes/Shape_Plane.uasset"
-[2023.04.09-18.25.04:101][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
-[2023.04.09-18.25.04:106][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Shapes/Shape_Sphere.uasset"
-[2023.04.09-18.25.04:111][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Shapes/Shape_Torus.uasset"
-[2023.04.09-18.25.04:115][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Shapes/Shape_Trim.uasset"
-[2023.04.09-18.25.04:118][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
-[2023.04.09-18.25.04:123][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
-[2023.04.09-18.25.04:127][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
-[2023.04.09-18.25.04:131][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Shapes/Shape_Tube.uasset"
-[2023.04.09-18.25.04:135][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
-[2023.04.09-18.25.04:140][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
-[2023.04.09-18.25.04:144][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
-[2023.04.09-18.25.04:154][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
-[2023.04.09-18.25.04:163][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
-[2023.04.09-18.25.04:173][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
-[2023.04.09-18.25.04:182][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
-[2023.04.09-18.25.04:194][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
-[2023.04.09-18.25.04:205][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
-[2023.04.09-18.25.04:218][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
-[2023.04.09-18.25.04:229][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
-[2023.04.09-18.25.04:243][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
-[2023.04.09-18.25.04:251][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
-[2023.04.09-18.25.04:261][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
-[2023.04.09-18.25.04:270][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
-[2023.04.09-18.25.04:280][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
-[2023.04.09-18.25.04:284][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Textures/T_Burst_M.uasset"
-[2023.04.09-18.25.04:289][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Textures/T_Bush_D.uasset"
-[2023.04.09-18.25.04:293][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Textures/T_Bush_N.uasset"
-[2023.04.09-18.25.04:297][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
-[2023.04.09-18.25.04:301][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
-[2023.04.09-18.25.04:307][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Textures/T_Chair_M.uasset"
-[2023.04.09-18.25.04:336][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Textures/T_Chair_N.uasset"
-[2023.04.09-18.25.04:342][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
-[2023.04.09-18.25.04:355][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
-[2023.04.09-18.25.04:360][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
-[2023.04.09-18.25.04:372][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
-[2023.04.09-18.25.04:380][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
-[2023.04.09-18.25.04:386][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
-[2023.04.09-18.25.04:443][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
-[2023.04.09-18.25.04:453][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
-[2023.04.09-18.25.04:463][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
-[2023.04.09-18.25.04:475][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
-[2023.04.09-18.25.04:487][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
-[2023.04.09-18.25.04:496][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
-[2023.04.09-18.25.04:508][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
-[2023.04.09-18.25.04:519][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
-[2023.04.09-18.25.04:528][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
-[2023.04.09-18.25.04:536][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
-[2023.04.09-18.25.04:546][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
-[2023.04.09-18.25.04:550][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
-[2023.04.09-18.25.04:557][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
-[2023.04.09-18.25.04:562][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Textures/T_Door_M.uasset"
-[2023.04.09-18.25.04:567][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Textures/T_Door_N.uasset"
-[2023.04.09-18.25.04:570][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
-[2023.04.09-18.25.04:577][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
-[2023.04.09-18.25.04:581][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
-[2023.04.09-18.25.04:585][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
-[2023.04.09-18.25.04:590][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Textures/T_Frame_M.uasset"
-[2023.04.09-18.25.04:595][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Textures/T_Frame_N.uasset"
-[2023.04.09-18.25.04:598][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Textures/T_Gradinet_01.uasset"
-[2023.04.09-18.25.04:611][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
-[2023.04.09-18.25.04:623][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
-[2023.04.09-18.25.04:635][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
-[2023.04.09-18.25.04:644][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
-[2023.04.09-18.25.04:705][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
-[2023.04.09-18.25.04:715][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
-[2023.04.09-18.25.04:720][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Textures/T_Lamp_M.uasset"
-[2023.04.09-18.25.04:727][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Textures/T_Lamp_N.uasset"
-[2023.04.09-18.25.04:738][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Textures/T_MacroVariation.uasset"
-[2023.04.09-18.25.04:749][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
-[2023.04.09-18.25.04:760][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
-[2023.04.09-18.25.04:771][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
-[2023.04.09-18.25.04:815][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
-[2023.04.09-18.25.04:826][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
-[2023.04.09-18.25.04:835][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
-[2023.04.09-18.25.04:843][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
-[2023.04.09-18.25.04:851][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
-[2023.04.09-18.25.04:862][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
-[2023.04.09-18.25.04:870][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Textures/T_RockMesh_M.uasset"
-[2023.04.09-18.25.04:877][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Textures/T_RockMesh_N.uasset"
-[2023.04.09-18.25.04:898][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
-[2023.04.09-18.25.04:919][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
-[2023.04.09-18.25.04:934][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
-[2023.04.09-18.25.04:945][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
-[2023.04.09-18.25.04:957][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
-[2023.04.09-18.25.04:970][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
-[2023.04.09-18.25.04:981][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
-[2023.04.09-18.25.04:991][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
-[2023.04.09-18.25.04:996][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Textures/T_Shelf_M.uasset"
-[2023.04.09-18.25.05:001][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Textures/T_Shelf_N.uasset"
-[2023.04.09-18.25.05:006][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
-[2023.04.09-18.25.05:013][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
-[2023.04.09-18.25.05:017][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
-[2023.04.09-18.25.05:023][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Textures/T_Spark_Core.uasset"
-[2023.04.09-18.25.05:027][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Textures/T_Statue_M.uasset"
-[2023.04.09-18.25.05:032][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Textures/T_Statue_N.uasset"
-[2023.04.09-18.25.05:049][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Textures/T_TableRound_M.uasset"
-[2023.04.09-18.25.05:054][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Textures/T_TableRound_N.uasset"
-[2023.04.09-18.25.05:059][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
-[2023.04.09-18.25.05:064][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
-[2023.04.09-18.25.05:068][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
-[2023.04.09-18.25.05:079][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
-[2023.04.09-18.25.05:097][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
-[2023.04.09-18.25.05:102][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
-[2023.04.09-18.25.05:109][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Textures/T_Water_M.uasset"
-[2023.04.09-18.25.05:115][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Textures/T_Water_N.uasset"
-[2023.04.09-18.25.05:123][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
-[2023.04.09-18.25.05:175][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
-[2023.04.09-18.25.05:213][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
-[2023.04.09-18.25.05:222][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
-[2023.04.09-18.25.05:231][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
-[2023.04.09-18.25.05:242][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
-[2023.04.09-18.25.05:249][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
-[2023.04.09-18.25.05:258][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
-[2023.04.09-18.25.05:266][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "../../../../../../GameDev/CrystalCavern/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
-[2023.04.09-18.25.05:301][  0]LogRenderer: Reallocating scene render targets to support 256x256 Format 10 NumSamples 1 (Frame:1).
-[2023.04.09-18.25.05:363][  0]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Architecture/Floor_400x400" FILE="../../../../../../GameDev/CrystalCavern/Content/StarterContent/Architecture/Floor_400x400.uasset" SILENT=true
-[2023.04.09-18.25.05:371][  0]LogSavePackage: Moving '../../../../../../GameDev/CrystalCavern/Saved/Floor_400x400C417F44C473450CB85A802B53CAAD489.tmp' to '../../../../../../GameDev/CrystalCavern/Content/StarterContent/Architecture/Floor_400x400.uasset'
-[2023.04.09-18.25.05:372][  0]LogFeaturePack: Warning: Inserted 1 feature packs
-[2023.04.09-18.25.05:373][  0]Cmd: MAP LOAD FILE="../../../../../../GameDev/CrystalCavern/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2023.04.09-18.25.05:374][  0]LightingResults: New page: Lighting Build
-[2023.04.09-18.25.05:375][  0]MapCheck: New page: Map Check
-[2023.04.09-18.25.05:375][  0]LightingResults: New page: Lighting Build
-[2023.04.09-18.25.05:566][  0]LogAIModule: Creating AISystem for world Minimal_Default
-[2023.04.09-18.25.05:570][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2023.04.09-18.25.05:587][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2023.04.09-18.25.05:651][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 63.274ms to complete.
-[2023.04.09-18.25.05:651][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.277
-[2023.04.09-18.25.05:744][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2023.04.09-18.25.05:748][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2023.04.09-18.25.05:752][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2023.04.09-18.25.05:755][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2023.04.09-18.25.05:762][  0]LogCollectionManager: Loaded 0 collections in 0.000925 seconds
-[2023.04.09-18.25.05:800][  0]LogFileCache: Scanning file cache for directory 'C:/GameDev/CrystalCavern/Saved/Collections/' took 0.01s
-[2023.04.09-18.25.05:800][  0]LogFileCache: Scanning file cache for directory 'C:/GameDev/CrystalCavern/Content/Developers/dcalt/Collections/' took 0.01s
-[2023.04.09-18.25.05:800][  0]LogFileCache: Scanning file cache for directory 'C:/GameDev/CrystalCavern/Content/Collections/' took 0.01s
-[2023.04.09-18.25.05:800][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2023.04.09-18.25.05:806][  0]LogContentBrowser: Native class hierarchy populated in 0.0059 seconds. Added 2572 classes and 603 folders.
-[2023.04.09-18.25.05:809][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2023.04.09-18.25.05:990][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2023.04.09-18.25.05:993][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
-[2023.04.09-18.25.06:003][  0]LogSlate: Took 0.000120 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2023.04.09-18.25.06:004][  0]LogSlate: Took 0.000122 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2023.04.09-18.25.06:011][  0]LogSlate: Took 0.003975 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2023.04.09-18.25.06:047][  0]LogRenderer: Reallocating scene render targets to support 820x424 Format 10 NumSamples 1 (Frame:1).
-[2023.04.09-18.25.06:070][  0]LogSlate: Took 0.000166 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2023.04.09-18.25.06:134][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2023.04.09-18.25.06:134][  0]LogLoad: (Engine Initialization) Total time: 8.36 seconds
-[2023.04.09-18.25.06:134][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2023.04.09-18.25.06:157][  0]LogAssetRegistry: Asset discovery search completed in 4.9130 seconds
-[2023.04.09-18.25.06:158][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2023.04.09-18.25.06:158][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000030 seconds (updated 0 objects)
-[2023.04.09-18.25.06:233][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2023.04.09-18.25.07:866][176]LogRenderer: Reallocating scene render targets to support 820x444 Format 10 NumSamples 1 (Frame:179).
-[2023.04.09-18.25.09:525][297]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2023.04.09-18.25.09:675][311]LogRenderer: Reallocating scene render targets to support 1236x696 Format 10 NumSamples 1 (Frame:301).
-[2023.04.09-18.25.39:674][771]LogSlate: Window 'New Level' being destroyed
-[2023.04.09-18.25.39:676][771]LightingResults: New page: Lighting Build
-[2023.04.09-18.25.39:676][771]MapCheck: New page: Map Check
-[2023.04.09-18.25.39:676][771]LightingResults: New page: Lighting Build
-[2023.04.09-18.25.39:700][771]LogAIModule: Creating AISystem for world Untitled
-[2023.04.09-18.25.39:706][771]LoadErrors: New page: New Map
-[2023.04.09-18.25.58:161][970]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2023.04.09-18.26.20:168][986]LogSlate: Window 'Save Level As' being destroyed
-[2023.04.09-18.26.20:239][986]LogSlate: Took 0.000113 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2023.04.09-18.26.20:254][986]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1" FILE="../../../../../../GameDev/CrystalCavern/Content/Levels/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2023.04.09-18.26.20:274][986]LogSavePackage: Moving '../../../../../../GameDev/CrystalCavern/Saved/Level1598A33DE49C30953B8CFDFB209357A17.tmp' to '../../../../../../GameDev/CrystalCavern/Content/Levels/Level1.umap'
-[2023.04.09-18.26.20:287][986]LogFileHelpers: Saving map 'Level1' took 0.117
-[2023.04.09-18.26.28:177][852]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
-[2023.04.09-18.26.28:218][853]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.CrystalCavern
-[2023.04.09-18.26.28:218][853]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
-[2023.04.09-18.26.28:218][853]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.20
-[2023.04.09-18.26.28:218][853]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
-[2023.04.09-18.26.28:230][854]LogTemp: BranchPath = DESKTOP-U1RK44O/C/Program Files/Epic Games/UE_4.20/Engine/Binaries --- GameBranchPath = DESKTOP-U1RK44O/C/Program Files/Epic Games/UE_4.20/Engine/Binaries
-[2023.04.09-18.26.28:230][854]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\dcalt\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
-[2023.04.09-18.27.03:224][384]LogSlate: Window 'Save Asset As' being destroyed
-[2023.04.09-18.27.09:563][384]LogSlate: Window 'Message' being destroyed
-[2023.04.09-18.27.42:903][466]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1" FILE="../../../../../../GameDev/CrystalCavern/Content/Levels/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2023.04.09-18.27.42:923][466]LogSavePackage: Moving '../../../../../../GameDev/CrystalCavern/Saved/Level135B443B847E20AD363E3238F70BE3F96.tmp' to '../../../../../../GameDev/CrystalCavern/Content/Levels/Level1.umap'
-[2023.04.09-18.27.56:286][972]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1" FILE="../../../../../../GameDev/CrystalCavern/Content/Levels/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2023.04.09-18.27.56:305][972]LogSavePackage: Moving '../../../../../../GameDev/CrystalCavern/Saved/Level1CE3D83FC46C3D7EFF41E67B170298F6D.tmp' to '../../../../../../GameDev/CrystalCavern/Content/Levels/Level1.umap'
-[2023.04.09-18.28.45:948][683]LogSlate: Window 'CrystalCavern - Unreal Editor' being destroyed
-[2023.04.09-18.28.46:082][684]Cmd: QUIT_EDITOR
-[2023.04.09-18.28.46:093][684]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2023.04.09-18.28.46:099][684]LogExit: Preparing to exit.
-[2023.04.09-18.28.46:594][684]LogExit: Editor shut down
-[2023.04.09-18.28.46:594][684]LogExit: Transaction tracking system shut down
-[2023.04.09-18.28.47:055][684]LogExit: Object subsystem successfully closed.
-[2023.04.09-18.28.47:075][684]LogShaderCompilers: Display: Shaders left to compile 0
-[2023.04.09-18.28.47:077][684]LogD3D11RHI: Shutdown
-[2023.04.09-18.28.47:077][684]LogD3D11RHI: CleanupD3DDevice
-[2023.04.09-18.28.47:079][684]LogD3D11RHI: ~FD3D11DynamicRHI
-[2023.04.09-18.28.47:098][684]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (616)
-[2023.04.09-18.28.47:098][684]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (614)
-[2023.04.09-18.28.47:098][684]LogModuleManager: Shutting down and abandoning module NewLevelDialog (612)
-[2023.04.09-18.28.47:098][684]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (610)
-[2023.04.09-18.28.47:098][684]LogModuleManager: Shutting down and abandoning module SceneOutliner (608)
-[2023.04.09-18.28.47:098][684]LogModuleManager: Shutting down and abandoning module AddContentDialog (606)
-[2023.04.09-18.28.47:098][684]LogModuleManager: Shutting down and abandoning module WidgetCarousel (605)
-[2023.04.09-18.28.47:098][684]LogModuleManager: Shutting down and abandoning module EditorWidgets (602)
-[2023.04.09-18.28.47:098][684]LogModuleManager: Shutting down and abandoning module CollectionManager (600)
-[2023.04.09-18.28.47:099][684]LogModuleManager: Shutting down and abandoning module StatsViewer (598)
-[2023.04.09-18.28.47:099][684]LogModuleManager: Shutting down and abandoning module FoliageEdit (596)
-[2023.04.09-18.28.47:099][684]LogModuleManager: Shutting down and abandoning module LandscapeEditor (594)
-[2023.04.09-18.28.47:099][684]LogModuleManager: Shutting down and abandoning module MeshPaintMode (592)
-[2023.04.09-18.28.47:099][684]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (590)
-[2023.04.09-18.28.47:099][684]LogModuleManager: Shutting down and abandoning module ActorPickerMode (588)
-[2023.04.09-18.28.47:099][684]LogModuleManager: Shutting down and abandoning module GeometryMode (586)
-[2023.04.09-18.28.47:099][684]LogModuleManager: Shutting down and abandoning module TextureAlignMode (584)
-[2023.04.09-18.28.47:099][684]LogModuleManager: Shutting down and abandoning module BspMode (582)
-[2023.04.09-18.28.47:099][684]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (580)
-[2023.04.09-18.28.47:099][684]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (578)
-[2023.04.09-18.28.47:099][684]LogModuleManager: Shutting down and abandoning module AutomationWorker (576)
-[2023.04.09-18.28.47:099][684]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (574)
-[2023.04.09-18.28.47:099][684]LogModuleManager: Shutting down and abandoning module SequenceRecorder (573)
-[2023.04.09-18.28.47:099][684]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (570)
-[2023.04.09-18.28.47:099][684]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (568)
-[2023.04.09-18.28.47:099][684]LogModuleManager: Shutting down and abandoning module PlacementMode (567)
-[2023.04.09-18.28.47:099][684]LogModuleManager: Shutting down and abandoning module MaterialEditor (566)
-[2023.04.09-18.28.47:099][684]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (562)
-[2023.04.09-18.28.47:099][684]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (560)
-[2023.04.09-18.28.47:099][684]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (558)
-[2023.04.09-18.28.47:099][684]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (556)
-[2023.04.09-18.28.47:099][684]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (554)
-[2023.04.09-18.28.47:099][684]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (552)
-[2023.04.09-18.28.47:099][684]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (550)
-[2023.04.09-18.28.47:099][684]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (548)
-[2023.04.09-18.28.47:099][684]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (546)
-[2023.04.09-18.28.47:099][684]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (544)
-[2023.04.09-18.28.47:099][684]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (542)
-[2023.04.09-18.28.47:099][684]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (540)
-[2023.04.09-18.28.47:099][684]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (538)
-[2023.04.09-18.28.47:099][684]LogModuleManager: Shutting down and abandoning module CharacterAI (536)
-[2023.04.09-18.28.47:099][684]LogModuleManager: Shutting down and abandoning module SmartSnapping (534)
-[2023.04.09-18.28.47:099][684]LogModuleManager: Shutting down and abandoning module SessionServices (532)
-[2023.04.09-18.28.47:099][684]LogModuleManager: Shutting down and abandoning module ViewportSnapping (530)
-[2023.04.09-18.28.47:099][684]LogModuleManager: Shutting down and abandoning module ViewportInteraction (528)
-[2023.04.09-18.28.47:099][684]LogModuleManager: Shutting down and abandoning module ClothPainter (526)
-[2023.04.09-18.28.47:099][684]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (525)
-[2023.04.09-18.28.47:099][684]LogModuleManager: Shutting down and abandoning module LogVisualizer (522)
-[2023.04.09-18.28.47:100][684]LogModuleManager: Shutting down and abandoning module IntroTutorials (520)
-[2023.04.09-18.28.47:100][684]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (519)
-[2023.04.09-18.28.47:100][684]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (516)
-[2023.04.09-18.28.47:100][684]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (514)
-[2023.04.09-18.28.47:100][684]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (512)
-[2023.04.09-18.28.47:100][684]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (510)
-[2023.04.09-18.28.47:100][684]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (509)
-[2023.04.09-18.28.47:204][684]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (506)
-[2023.04.09-18.28.47:204][684]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (504)
-[2023.04.09-18.28.47:204][684]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (502)
-[2023.04.09-18.28.47:204][684]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (500)
-[2023.04.09-18.28.47:204][684]LogModuleManager: Shutting down and abandoning module InputBindingEditor (498)
-[2023.04.09-18.28.47:204][684]LogModuleManager: Shutting down and abandoning module MergeActors (496)
-[2023.04.09-18.28.47:204][684]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (494)
-[2023.04.09-18.28.47:204][684]LogModuleManager: Shutting down and abandoning module LocalizationService (493)
-[2023.04.09-18.28.47:204][684]LogModuleManager: Shutting down and abandoning module HardwareTargeting (490)
-[2023.04.09-18.28.47:204][684]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (488)
-[2023.04.09-18.28.47:204][684]LogModuleManager: Shutting down and abandoning module UndoHistory (486)
-[2023.04.09-18.28.47:204][684]LogModuleManager: Shutting down and abandoning module XmlParser (484)
-[2023.04.09-18.28.47:204][684]LogModuleManager: Shutting down and abandoning module Blutility (482)
-[2023.04.09-18.28.47:204][684]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (480)
-[2023.04.09-18.28.47:204][684]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (479)
-[2023.04.09-18.28.47:204][684]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (476)
-[2023.04.09-18.28.47:204][684]LogModuleManager: Shutting down and abandoning module SettingsEditor (474)
-[2023.04.09-18.28.47:204][684]LogModuleManager: Shutting down and abandoning module ProjectLauncher (472)
-[2023.04.09-18.28.47:204][684]LogModuleManager: Shutting down and abandoning module SessionFrontend (470)
-[2023.04.09-18.28.47:204][684]LogModuleManager: Shutting down and abandoning module ProfilerClient (468)
-[2023.04.09-18.28.47:204][684]LogModuleManager: Shutting down and abandoning module DeviceManager (466)
-[2023.04.09-18.28.47:204][684]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (465)
-[2023.04.09-18.28.47:247][684]LogModuleManager: Shutting down and abandoning module AutomationController (462)
-[2023.04.09-18.28.47:247][684]LogModuleManager: Shutting down and abandoning module AutomationWindow (460)
-[2023.04.09-18.28.47:247][684]LogModuleManager: Shutting down and abandoning module Layers (458)
-[2023.04.09-18.28.47:247][684]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (456)
-[2023.04.09-18.28.47:247][684]LogModuleManager: Shutting down and abandoning module DetailCustomizations (454)
-[2023.04.09-18.28.47:247][684]LogModuleManager: Shutting down and abandoning module PackagesDialog (452)
-[2023.04.09-18.28.47:247][684]LogModuleManager: Shutting down and abandoning module Persona (450)
-[2023.04.09-18.28.47:247][684]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (449)
-[2023.04.09-18.28.47:247][684]LogModuleManager: Shutting down and abandoning module AnimGraph (447)
-[2023.04.09-18.28.47:247][684]LogModuleManager: Shutting down and abandoning module Kismet (444)
-[2023.04.09-18.28.47:247][684]LogModuleManager: Shutting down and abandoning module GraphEditor (442)
-[2023.04.09-18.28.47:247][684]LogModuleManager: Shutting down and abandoning module ClassViewer (440)
-[2023.04.09-18.28.47:248][684]LogModuleManager: Shutting down and abandoning module Toolbox (438)
-[2023.04.09-18.28.47:248][684]LogModuleManager: Shutting down and abandoning module ModuleUI (436)
-[2023.04.09-18.28.47:248][684]LogModuleManager: Shutting down and abandoning module MovieSceneTools (434)
-[2023.04.09-18.28.47:248][684]LogModuleManager: Shutting down and abandoning module OutputLog (432)
-[2023.04.09-18.28.47:248][684]LogModuleManager: Shutting down and abandoning module GammaUI (430)
-[2023.04.09-18.28.47:248][684]LogModuleManager: Shutting down and abandoning module Documentation (428)
-[2023.04.09-18.28.47:248][684]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (426)
-[2023.04.09-18.28.47:248][684]LogModuleManager: Shutting down and abandoning module MovieScene (424)
-[2023.04.09-18.28.47:248][684]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (422)
-[2023.04.09-18.28.47:248][684]LogModuleManager: Shutting down and abandoning module LauncherPlatform (420)
-[2023.04.09-18.28.47:248][684]LogModuleManager: Shutting down and abandoning module AnalyticsET (418)
-[2023.04.09-18.28.47:248][684]LogModuleManager: Shutting down and abandoning module PortalServices (416)
-[2023.04.09-18.28.47:248][684]LogModuleManager: Shutting down and abandoning module PortalRpc (414)
-[2023.04.09-18.28.47:248][684]LogModuleManager: Shutting down and abandoning module MessagingRpc (412)
-[2023.04.09-18.28.47:248][684]LogModuleManager: Shutting down and abandoning module AIModule (410)
-[2023.04.09-18.28.47:248][684]LogModuleManager: Shutting down and abandoning module GameplayDebugger (409)
-[2023.04.09-18.28.47:248][684]LogModuleManager: Shutting down and abandoning module AITestSuite (407)
-[2023.04.09-18.28.47:248][684]LogModuleManager: Shutting down and abandoning module NavigationSystem (405)
-[2023.04.09-18.28.47:248][684]LogModuleManager: Shutting down and abandoning module DesktopPlatform (402)
-[2023.04.09-18.28.47:248][684]LogModuleManager: Shutting down and abandoning module ProfilerService (400)
-[2023.04.09-18.28.47:366][684]LogModuleManager: Shutting down and abandoning module TaskGraph (398)
-[2023.04.09-18.28.47:366][684]LogModuleManager: Shutting down and abandoning module SteamVRController (396)
-[2023.04.09-18.28.47:366][684]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (394)
-[2023.04.09-18.28.47:366][684]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (392)
-[2023.04.09-18.28.47:366][684]LogModuleManager: Shutting down and abandoning module OculusInput (390)
-[2023.04.09-18.28.47:366][684]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (388)
-[2023.04.09-18.28.47:366][684]LogModuleManager: Shutting down and abandoning module EditableMesh (386)
-[2023.04.09-18.28.47:366][684]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (384)
-[2023.04.09-18.28.47:366][684]LogModuleManager: Shutting down and abandoning module CableComponent (382)
-[2023.04.09-18.28.47:366][684]LogModuleManager: Shutting down and abandoning module AudioCapture (380)
-[2023.04.09-18.28.47:366][684]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (378)
-[2023.04.09-18.28.47:366][684]LogModuleManager: Shutting down and abandoning module AndroidPermission (376)
-[2023.04.09-18.28.47:366][684]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (374)
-[2023.04.09-18.28.47:366][684]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (372)
-[2023.04.09-18.28.47:366][684]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (370)
-[2023.04.09-18.28.47:366][684]LogModuleManager: Shutting down and abandoning module MediaCompositing (368)
-[2023.04.09-18.28.47:366][684]LogModuleManager: Shutting down and abandoning module LinearTimecode (366)
-[2023.04.09-18.28.47:366][684]LogModuleManager: Shutting down and abandoning module ImgMedia (364)
-[2023.04.09-18.28.47:368][684]LogModuleManager: Shutting down and abandoning module HTML5Networking (362)
-[2023.04.09-18.28.47:368][684]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (360)
-[2023.04.09-18.28.47:368][684]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (358)
-[2023.04.09-18.28.47:368][684]LogModuleManager: Shutting down and abandoning module BackChannel (356)
-[2023.04.09-18.28.47:368][684]LogModuleManager: Shutting down and abandoning module AppleVision (354)
-[2023.04.09-18.28.47:368][684]LogModuleManager: Shutting down and abandoning module AppleImageUtils (352)
-[2023.04.09-18.28.47:368][684]LogModuleManager: Shutting down and abandoning module AlembicImporter (350)
-[2023.04.09-18.28.47:368][684]LogModuleManager: Shutting down and abandoning module AlembicLibrary (349)
-[2023.04.09-18.28.47:368][684]LogModuleManager: Shutting down and abandoning module GeometryCache (348)
-[2023.04.09-18.28.47:368][684]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (347)
-[2023.04.09-18.28.47:368][684]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (342)
-[2023.04.09-18.28.47:368][684]LogModuleManager: Shutting down and abandoning module DatasmithContent (340)
-[2023.04.09-18.28.47:368][684]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (338)
-[2023.04.09-18.28.47:368][684]LogModuleManager: Shutting down and abandoning module PluginBrowser (336)
-[2023.04.09-18.28.47:368][684]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (334)
-[2023.04.09-18.28.47:368][684]LogModuleManager: Shutting down and abandoning module PolygonModeling (332)
-[2023.04.09-18.28.47:368][684]LogModuleManager: Shutting down and abandoning module MeshEditor (330)
-[2023.04.09-18.28.47:368][684]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (328)
-[2023.04.09-18.28.47:368][684]LogModuleManager: Shutting down and abandoning module CryptoKeys (326)
-[2023.04.09-18.28.47:368][684]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (324)
-[2023.04.09-18.28.47:368][684]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (322)
-[2023.04.09-18.28.47:368][684]LogModuleManager: Shutting down and abandoning module UObjectPlugin (320)
-[2023.04.09-18.28.47:368][684]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (318)
-[2023.04.09-18.28.47:368][684]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (316)
-[2023.04.09-18.28.47:368][684]LogModuleManager: Shutting down and abandoning module GitSourceControl (314)
-[2023.04.09-18.28.47:368][684]LogModuleManager: Shutting down and abandoning module SourceControl (313)
-[2023.04.09-18.28.47:368][684]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (310)
-[2023.04.09-18.28.47:368][684]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (308)
-[2023.04.09-18.28.47:368][684]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (306)
-[2023.04.09-18.28.47:368][684]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (304)
-[2023.04.09-18.28.47:368][684]LogModuleManager: Shutting down and abandoning module Paper2DEditor (302)
-[2023.04.09-18.28.47:369][684]LogModuleManager: Shutting down and abandoning module MeshPaint (301)
-[2023.04.09-18.28.47:369][684]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (298)
-[2023.04.09-18.28.47:369][684]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (296)
-[2023.04.09-18.28.47:369][684]LogModuleManager: Shutting down and abandoning module PhysXVehicles (294)
-[2023.04.09-18.28.47:369][684]LogModuleManager: Shutting down and abandoning module OculusEditor (292)
-[2023.04.09-18.28.47:369][684]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (290)
-[2023.04.09-18.28.47:369][684]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (288)
-[2023.04.09-18.28.47:369][684]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (286)
-[2023.04.09-18.28.47:369][684]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
-[2023.04.09-18.28.47:369][684]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
-[2023.04.09-18.28.47:470][684]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
-[2023.04.09-18.28.47:571][684]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
-[2023.04.09-18.28.47:571][684]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
-[2023.04.09-18.28.47:571][684]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
-[2023.04.09-18.28.47:571][684]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
-[2023.04.09-18.28.47:571][684]LogModuleManager: Shutting down and abandoning module DataValidation (270)
-[2023.04.09-18.28.47:571][684]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
-[2023.04.09-18.28.47:571][684]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
-[2023.04.09-18.28.47:571][684]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
-[2023.04.09-18.28.47:571][684]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
-[2023.04.09-18.28.47:571][684]LogModuleManager: Shutting down and abandoning module MainFrame (262)
-[2023.04.09-18.28.47:571][684]LogModuleManager: Shutting down and abandoning module HotReload (261)
-[2023.04.09-18.28.47:572][684]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
-[2023.04.09-18.28.47:572][684]LogModuleManager: Shutting down and abandoning module TreeMap (255)
-[2023.04.09-18.28.47:572][684]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
-[2023.04.09-18.28.47:572][684]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
-[2023.04.09-18.28.47:572][684]LogModuleManager: Shutting down and abandoning module Paper2D (248)
-[2023.04.09-18.28.47:572][684]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
-[2023.04.09-18.28.47:572][684]LogModuleManager: Shutting down and abandoning module WmfMedia (244)
-[2023.04.09-18.28.47:573][684]LogModuleManager: Shutting down and abandoning module Media (243)
-[2023.04.09-18.28.47:579][684]LogModuleManager: Shutting down and abandoning module PacketHandler (240)
-[2023.04.09-18.28.47:579][684]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (238)
-[2023.04.09-18.28.47:579][684]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (236)
-[2023.04.09-18.28.47:579][684]LogModuleManager: Shutting down and abandoning module MediaAssets (234)
-[2023.04.09-18.28.47:579][684]LogModuleManager: Shutting down and abandoning module Overlay (232)
-[2023.04.09-18.28.47:579][684]LogModuleManager: Shutting down and abandoning module OverlayEditor (231)
-[2023.04.09-18.28.47:579][684]LogModuleManager: Shutting down and abandoning module VREditor (228)
-[2023.04.09-18.28.47:579][684]LogModuleManager: Shutting down and abandoning module StringTableEditor (226)
-[2023.04.09-18.28.47:579][684]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (224)
-[2023.04.09-18.28.47:579][684]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (222)
-[2023.04.09-18.28.47:579][684]LogModuleManager: Shutting down and abandoning module FunctionalTesting (220)
-[2023.04.09-18.28.47:579][684]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (218)
-[2023.04.09-18.28.47:579][684]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (217)
-[2023.04.09-18.28.47:579][684]LogModuleManager: Shutting down and abandoning module UMG (214)
-[2023.04.09-18.28.47:579][684]LogModuleManager: Shutting down and abandoning module UMGEditor (213)
-[2023.04.09-18.28.47:579][684]LogModuleManager: Shutting down and abandoning module Sequencer (212)
-[2023.04.09-18.28.47:579][684]LogModuleManager: Shutting down and abandoning module MessageLog (209)
-[2023.04.09-18.28.47:579][684]LogModuleManager: Shutting down and abandoning module SlateReflector (204)
-[2023.04.09-18.28.47:579][684]LogModuleManager: Shutting down and abandoning module Slate (202)
-[2023.04.09-18.28.47:579][684]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
-[2023.04.09-18.28.47:580][684]LogModuleManager: Shutting down and abandoning module MRMesh (198)
-[2023.04.09-18.28.47:580][684]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (196)
-[2023.04.09-18.28.47:580][684]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (194)
-[2023.04.09-18.28.47:580][684]LogModuleManager: Shutting down and abandoning module XAudio2 (192)
-[2023.04.09-18.28.47:580][684]LogModuleManager: Shutting down and abandoning module Networking (190)
-[2023.04.09-18.28.47:580][684]LogModuleManager: Shutting down and abandoning module Core (188)
-[2023.04.09-18.28.47:580][684]LogModuleManager: Shutting down and abandoning module LevelSequence (186)
-[2023.04.09-18.28.47:580][684]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
-[2023.04.09-18.28.47:580][684]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
-[2023.04.09-18.28.47:580][684]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
-[2023.04.09-18.28.47:580][684]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
-[2023.04.09-18.28.47:580][684]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (179)
-[2023.04.09-18.28.47:580][684]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
-[2023.04.09-18.28.47:580][684]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (175)
-[2023.04.09-18.28.47:580][684]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (173)
-[2023.04.09-18.28.47:580][684]LogModuleManager: Shutting down and abandoning module MaterialBaking (169)
-[2023.04.09-18.28.47:580][684]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (165)
-[2023.04.09-18.28.47:580][684]LogModuleManager: Shutting down and abandoning module DerivedDataCache (162)
-[2023.04.09-18.28.47:607][684]LogDerivedDataCache: Shutdown
-[2023.04.09-18.28.47:607][684]LogModuleManager: Shutting down and abandoning module XGEController (160)
-[2023.04.09-18.28.47:607][684]LogModuleManager: Shutting down and abandoning module TargetPlatform (158)
-[2023.04.09-18.28.47:607][684]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (157)
-[2023.04.09-18.28.47:607][684]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (155)
-[2023.04.09-18.28.47:607][684]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (153)
-[2023.04.09-18.28.47:607][684]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (151)
-[2023.04.09-18.28.47:607][684]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (149)
-[2023.04.09-18.28.47:607][684]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (147)
-[2023.04.09-18.28.47:607][684]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (145)
-[2023.04.09-18.28.47:607][684]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (143)
-[2023.04.09-18.28.47:607][684]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (141)
-[2023.04.09-18.28.47:607][684]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (139)
-[2023.04.09-18.28.47:607][684]LogModuleManager: Shutting down and abandoning module ImageWrapper (138)
-[2023.04.09-18.28.47:607][684]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (135)
-[2023.04.09-18.28.47:607][684]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (133)
-[2023.04.09-18.28.47:607][684]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (131)
-[2023.04.09-18.28.47:607][684]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (129)
-[2023.04.09-18.28.47:607][684]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (127)
-[2023.04.09-18.28.47:607][684]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (125)
-[2023.04.09-18.28.47:607][684]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (123)
-[2023.04.09-18.28.47:607][684]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (121)
-[2023.04.09-18.28.47:607][684]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
-[2023.04.09-18.28.47:607][684]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (117)
-[2023.04.09-18.28.47:608][684]LogModuleManager: Shutting down and abandoning module Messaging (115)
-[2023.04.09-18.28.47:608][684]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
-[2023.04.09-18.28.47:608][684]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (111)
-[2023.04.09-18.28.47:608][684]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (109)
-[2023.04.09-18.28.47:612][684]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (107)
-[2023.04.09-18.28.47:612][684]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (105)
-[2023.04.09-18.28.47:612][684]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (103)
-[2023.04.09-18.28.47:612][684]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (101)
-[2023.04.09-18.28.47:612][684]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (99)
-[2023.04.09-18.28.47:612][684]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (97)
-[2023.04.09-18.28.47:612][684]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (95)
-[2023.04.09-18.28.47:612][684]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (93)
-[2023.04.09-18.28.47:612][684]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (91)
-[2023.04.09-18.28.47:612][684]LogModuleManager: Shutting down and abandoning module InputCore (88)
-[2023.04.09-18.28.47:612][684]LogModuleManager: Shutting down and abandoning module Settings (86)
-[2023.04.09-18.28.47:612][684]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
-[2023.04.09-18.28.47:612][684]LogModuleManager: Shutting down and abandoning module SteamVR (82)
-[2023.04.09-18.28.47:612][684]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
-[2023.04.09-18.28.47:612][684]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
-[2023.04.09-18.28.47:612][684]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
-[2023.04.09-18.28.47:612][684]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
-[2023.04.09-18.28.47:612][684]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
-[2023.04.09-18.28.47:612][684]LogModuleManager: Shutting down and abandoning module XMPP (65)
-[2023.04.09-18.28.47:612][684]LogModuleManager: Shutting down and abandoning module WebSockets (64)
-[2023.04.09-18.28.47:616][684]LogModuleManager: Shutting down and abandoning module HTTP (61)
-[2023.04.09-18.28.47:616][684]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2023.04.09-18.28.47:616][684]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B1D3BF6D2-4FFC-CB5B-B4F0-42817030BB4E%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.3-4369336%2B%2B%2BUE4%2BRelease-4.20&UserID=63052a4a415ea715a9ba078a77c42ba9%7C0507eb520d4d493aa837bd1917b4d2e7%7C0786eda7-4b31-4c3d-97b6-9dbc1ff6acbb&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2023.04.09-18.28.47:643][684]LogModuleManager: Shutting down and abandoning module SSL (60)
-[2023.04.09-18.28.47:644][684]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
-[2023.04.09-18.28.47:644][684]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
-[2023.04.09-18.28.47:644][684]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
-[2023.04.09-18.28.47:644][684]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
-[2023.04.09-18.28.47:644][684]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
-[2023.04.09-18.28.47:644][684]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
-[2023.04.09-18.28.47:644][684]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
-[2023.04.09-18.28.47:644][684]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
-[2023.04.09-18.28.47:644][684]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
-[2023.04.09-18.28.47:644][684]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
-[2023.04.09-18.28.47:644][684]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
-[2023.04.09-18.28.47:644][684]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
-[2023.04.09-18.28.47:644][684]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
-[2023.04.09-18.28.47:644][684]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
-[2023.04.09-18.28.47:644][684]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
-[2023.04.09-18.28.47:644][684]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2023.04.09-18.28.47:644][684]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2023.04.09-18.28.47:644][684]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2023.04.09-18.28.47:645][684]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2023.04.09-18.28.47:645][684]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2023.04.09-18.28.47:645][684]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2023.04.09-18.28.47:645][684]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2023.04.09-18.28.47:645][684]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2023.04.09-18.28.47:645][684]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2023.04.09-18.28.47:645][684]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2023.04.09-18.28.47:645][684]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2023.04.09-18.28.47:645][684]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2023.04.09-18.28.47:645][684]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2023.04.09-18.28.47:645][684]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2023.04.09-18.28.47:650][684]LogExit: Exiting.
-[2023.04.09-18.28.47:660][684]Log file closed, 04/09/23 14:28:47
+[2023.04.10-01.19.50:087][  0]LogInit: Selected Device Profile: [Windows]
+[2023.04.10-01.19.50:087][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2023.04.10-01.19.50:093][  0]LogHAL: Display: Platform has ~ 32 GB [34273423360 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2023.04.10-01.19.50:093][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2023.04.10-01.19.50:093][  0]LogInit: Going up to parent DeviceProfile []
+[2023.04.10-01.19.50:093][  0]LogInit: Computer: DESKTOP-U1RK44O
+[2023.04.10-01.19.50:093][  0]LogInit: User: dcalt
+[2023.04.10-01.19.50:093][  0]LogInit: CPU Page size=4096, Cores=6
+[2023.04.10-01.19.50:093][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2023.04.10-01.19.50:093][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2023.04.10-01.19.50:093][  0]LogMemory: Platform Memory Stats for Windows
+[2023.04.10-01.19.50:093][  0]LogMemory: Process Physical Memory: 102.82 MB used, 102.83 MB peak
+[2023.04.10-01.19.50:093][  0]LogMemory: Process Virtual Memory: 86.00 MB used, 86.00 MB peak
+[2023.04.10-01.19.50:093][  0]LogMemory: Physical Memory: 14022.86 MB used,  18662.83 MB free, 32685.68 MB total
+[2023.04.10-01.19.50:093][  0]LogMemory: Virtual Memory: 4641.39 MB used,  18662.83 MB free, 134217728.00 MB total
+[2023.04.10-01.19.50:115][  0]LogInit: Using OS detected language (en-US).
+[2023.04.10-01.19.50:115][  0]LogInit: Using OS detected locale (en-US).
+[2023.04.10-01.19.50:116][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2023.04.10-01.19.50:362][  0]LogStreaming: Display: Took  0.247s to InitEngineTextLocalization.
+[2023.04.10-01.19.50:362][  0]LogInit: Setting process to per monitor DPI aware
+[2023.04.10-01.19.50:384][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2023.04.10-01.19.50:384][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2023.04.10-01.19.50:530][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2023.04.10-01.19.50:530][  0]LogD3D11RHI: D3D11 adapters:
+[2023.04.10-01.19.50:618][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 3060' (Feature Level 11_0)
+[2023.04.10-01.19.50:618][  0]LogD3D11RHI:       12129/0/16342 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2023.04.10-01.19.50:620][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2023.04.10-01.19.50:620][  0]LogD3D11RHI:       0/0/16342 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2023.04.10-01.19.50:620][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2023.04.10-01.19.50:626][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2023.04.10-01.19.50:626][  0]LogD3D11RHI:     GPU DeviceId: 0x2504 (for the marketing name, search the web for "GPU Device Id")
+[2023.04.10-01.19.50:626][  0]LogWindows: EnumDisplayDevices:
+[2023.04.10-01.19.50:626][  0]LogWindows:    0. 'NVIDIA GeForce RTX 3060' (P:1 D:1)
+[2023.04.10-01.19.50:626][  0]LogWindows:    1. 'NVIDIA GeForce RTX 3060' (P:0 D:1)
+[2023.04.10-01.19.50:627][  0]LogWindows:    2. 'NVIDIA GeForce RTX 3060' (P:0 D:0)
+[2023.04.10-01.19.50:627][  0]LogWindows:    3. 'NVIDIA GeForce RTX 3060' (P:0 D:0)
+[2023.04.10-01.19.50:627][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2023.04.10-01.19.50:627][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 3060
+[2023.04.10-01.19.50:627][  0]LogD3D11RHI:   Driver Version: 526.98 (internal:31.0.15.2698, unified:526.98)
+[2023.04.10-01.19.50:627][  0]LogD3D11RHI:      Driver Date: 11-13-2022
+[2023.04.10-01.19.50:627][  0]LogRHI: Texture pool is 8490 MB (70% of 12129 MB)
+[2023.04.10-01.19.50:688][  0]LogD3D11RHI: Async texture creation enabled
+[2023.04.10-01.19.50:700][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2023.04.10-01.19.50:702][  0]LogShaderCompilers: Guid format shader working directory is 7 characters bigger than the processId version (../../../../../../GameDev/CrystalCavern/Intermediate/Shaders/WorkingDirectory/7008/).
+[2023.04.10-01.19.50:702][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/dcalt/AppData/Local/Temp/UnrealShaderWorkingDir/DBE5CA44425A62CACA3632BCAB76F83E/'.
+[2023.04.10-01.19.50:869][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2023.04.10-01.19.50:877][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2023.04.10-01.19.50:885][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2023.04.10-01.19.50:892][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2023.04.10-01.19.50:900][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2023.04.10-01.19.50:908][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2023.04.10-01.19.50:917][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2023.04.10-01.19.50:925][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2023.04.10-01.19.50:928][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2023.04.10-01.19.50:974][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2023.04.10-01.19.50:974][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2023.04.10-01.19.50:974][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2023.04.10-01.19.50:974][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2023.04.10-01.19.50:974][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2023.04.10-01.19.50:974][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2023.04.10-01.19.50:974][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2023.04.10-01.19.50:974][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2023.04.10-01.19.50:974][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2023.04.10-01.19.50:974][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2023.04.10-01.19.50:974][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2023.04.10-01.19.50:974][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2023.04.10-01.19.50:974][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2023.04.10-01.19.50:974][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2023.04.10-01.19.50:974][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2023.04.10-01.19.50:974][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2023.04.10-01.19.50:974][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2023.04.10-01.19.50:974][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2023.04.10-01.19.50:975][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2023.04.10-01.19.51:024][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2023.04.10-01.19.51:024][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2023.04.10-01.19.51:038][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2023.04.10-01.19.51:038][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2023.04.10-01.19.51:046][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2023.04.10-01.19.51:053][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2023.04.10-01.19.51:060][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2023.04.10-01.19.51:068][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2023.04.10-01.19.51:073][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2023.04.10-01.19.51:074][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2023.04.10-01.19.51:109][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2023.04.10-01.19.51:110][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2023.04.10-01.19.51:110][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2023.04.10-01.19.51:654][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2023.04.10-01.19.51:685][  0]LogDerivedDataCache: Loaded boot cache 0.03s 71MB C:/Users/dcalt/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2023.04.10-01.19.51:685][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/dcalt/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2023.04.10-01.19.51:685][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../GameDev/CrystalCavern/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2023.04.10-01.19.51:685][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2023.04.10-01.19.51:686][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../GameDev/CrystalCavern/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2023.04.10-01.19.51:686][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2023.04.10-01.19.51:695][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2023.04.10-01.19.51:706][  0]LogDerivedDataCache: Using Local data cache path C:/Users/dcalt/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2023.04.10-01.19.51:706][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2023.04.10-01.19.51:706][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2023.04.10-01.19.51:717][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2023.04.10-01.19.51:718][  0]LogSlate: Using FreeType 2.6.0
+[2023.04.10-01.19.51:719][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2023.04.10-01.19.51:776][  0]LogAssetRegistry: FAssetRegistry took 0.0247 seconds to start up
+[2023.04.10-01.19.51:972][  0]LogInit: Selected Device Profile: [Windows]
+[2023.04.10-01.19.52:051][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2023.04.10-01.19.52:053][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2023.04.10-01.19.52:053][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2023.04.10-01.19.52:053][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2023.04.10-01.19.52:053][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2023.04.10-01.19.52:065][  0]LogNetVersion: CrystalCavern 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1954901415)
+[2023.04.10-01.19.52:367][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.051498 seconds
+[2023.04.10-01.19.52:371][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2023.04.10-01.19.52:371][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2023.04.10-01.19.52:371][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2023.04.10-01.19.52:933][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2023.04.10-01.19.52:946][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2023.04.10-01.19.53:054][  0]SourceControl: Source control is disabled
+[2023.04.10-01.19.53:054][  0]SourceControl: Source control is disabled
+[2023.04.10-01.19.53:055][  0]SourceControl: Source control is disabled
+[2023.04.10-01.19.53:055][  0]SourceControl: Source control is disabled
+[2023.04.10-01.19.53:183][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2023.04.10-01.19.53:221][  0]LogOcInput: OculusInput pre-init called
+[2023.04.10-01.19.53:264][  0]LogEngine: Initializing Engine...
+[2023.04.10-01.19.53:265][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2023.04.10-01.19.53:266][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2023.04.10-01.19.53:266][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2023.04.10-01.19.53:266][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2023.04.10-01.19.53:266][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2023.04.10-01.19.53:388][  0]LogInit: Initializing FReadOnlyCVARCache
+[2023.04.10-01.19.53:396][  0]LogAIModule: Creating AISystem for world Untitled
+[2023.04.10-01.19.53:408][  0]LogInit: XAudio2 using '32S321 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2023.04.10-01.19.53:430][  0]LogInit: FAudioDevice initialized.
+[2023.04.10-01.19.53:431][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2023.04.10-01.19.53:460][  0]LogDerivedDataCache: Saved boot cache 0.03s 71MB C:/Users/dcalt/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2023.04.10-01.19.53:465][  0]LogInit: Texture streaming: Enabled
+[2023.04.10-01.19.53:477][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2023.04.10-01.19.53:487][  0]LogInit: Transaction tracking system initialized
+[2023.04.10-01.19.53:500][  0]BlueprintLog: New page: Editor Load
+[2023.04.10-01.19.53:542][  0]LocalizationService: Localization service is disabled
+[2023.04.10-01.19.53:702][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2023.04.10-01.19.53:702][  0]LogCook: Display: Mobile HDR setting 1
+[2023.04.10-01.19.53:702][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2023.04.10-01.19.53:702][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2023.04.10-01.19.53:702][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2023.04.10-01.19.53:702][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2023.04.10-01.19.53:702][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2023.04.10-01.19.53:766][  0]LogFileCache: Scanning file cache for directory 'C:/GameDev/CrystalCavern/Content/' took 0.01s
+[2023.04.10-01.19.53:766][  0]SourceControl: Source control is disabled
+[2023.04.10-01.19.53:766][  0]Cmd: MAP LOAD FILE="../../../../../../GameDev/CrystalCavern/Content/Levels/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2023.04.10-01.19.53:766][  0]LightingResults: New page: Lighting Build
+[2023.04.10-01.19.53:768][  0]MapCheck: New page: Map Check
+[2023.04.10-01.19.53:768][  0]LightingResults: New page: Lighting Build
+[2023.04.10-01.19.53:795][  0]LogAIModule: Creating AISystem for world Level1
+[2023.04.10-01.19.53:796][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.04.10-01.19.53:812][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.04.10-01.19.53:868][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 55.086ms to complete.
+[2023.04.10-01.19.53:868][  0]LogFileHelpers: Loading map 'Level1' took 0.102
+[2023.04.10-01.19.53:953][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.10-01.19.53:957][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.10-01.19.53:962][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.10-01.19.53:967][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.10-01.19.53:970][  0]LogCollectionManager: Loaded 0 collections in 0.001018 seconds
+[2023.04.10-01.19.54:008][  0]LogFileCache: Scanning file cache for directory 'C:/GameDev/CrystalCavern/Saved/Collections/' took 0.01s
+[2023.04.10-01.19.54:008][  0]LogFileCache: Scanning file cache for directory 'C:/GameDev/CrystalCavern/Content/Developers/dcalt/Collections/' took 0.01s
+[2023.04.10-01.19.54:008][  0]LogFileCache: Scanning file cache for directory 'C:/GameDev/CrystalCavern/Content/Collections/' took 0.01s
+[2023.04.10-01.19.54:008][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2023.04.10-01.19.54:014][  0]LogContentBrowser: Native class hierarchy populated in 0.0061 seconds. Added 2572 classes and 603 folders.
+[2023.04.10-01.19.54:018][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2023.04.10-01.19.54:053][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2023.04.10-01.19.54:056][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2023.04.10-01.19.54:069][  0]LogSlate: Took 0.000122 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2023.04.10-01.19.54:070][  0]LogSlate: Took 0.000105 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2023.04.10-01.19.54:072][  0]LogSlate: Took 0.000104 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2023.04.10-01.19.54:118][  0]LogRenderer: Reallocating scene render targets to support 1236x696 Format 10 NumSamples 1 (Frame:1).
+[2023.04.10-01.19.54:263][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2023.04.10-01.19.54:263][  0]LogLoad: (Engine Initialization) Total time: 5.91 seconds
+[2023.04.10-01.19.54:263][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2023.04.10-01.19.54:286][  0]LogAssetRegistry: Asset discovery search completed in 2.5326 seconds
+[2023.04.10-01.19.54:287][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2023.04.10-01.19.54:287][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000028 seconds (updated 0 objects)
+[2023.04.10-01.19.54:288][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2023.04.10-01.19.54:356][  0]LogSlate: Took 0.000179 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.04.10-01.19.54:454][ 12]LogEditorViewport: Clicking Background
+[2023.04.10-01.19.57:277][350]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2023.04.10-01.22.50:492][932]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2023.04.10-01.23.49:588][311]LogEditorViewport: Clicking Background
+[2023.04.10-01.23.52:341][640]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2023.04.10-01.24.54:798][133]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2023.04.10-01.25.13:769][990]LogEditorViewport: Clicking Background
+[2023.04.10-01.25.25:345][373]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2023.04.10-01.25.32:898][279]LogEditorViewport: Clicking Background
+[2023.04.10-01.25.38:746][980]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2023.04.10-01.25.39:643][ 88]Cmd: TRANSACTION UNDO
+[2023.04.10-01.25.39:643][ 88]LogEditorTransaction: Undo Clicking Background
+[2023.04.10-01.25.39:652][ 88]LogSlate: Took 0.000161 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.04.10-01.25.40:575][198]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2023.04.10-01.25.41:704][334]Cmd: TRANSACTION UNDO
+[2023.04.10-01.25.41:704][334]LogEditorTransaction: Undo Set Scale
+[2023.04.10-01.25.44:107][621]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2023.04.10-01.26.48:892][388]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2023.04.10-01.26.54:129][ 15]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2023.04.10-01.27.27:509][ 12]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2023.04.10-01.27.40:223][534]LogGeometryMode: Warning: Unable to find BoxBrush Brush(s) in new BSP
+[2023.04.10-01.27.40:223][534]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
+[2023.04.10-01.27.43:187][887]Cmd: DUPLICATE
+[2023.04.10-01.27.43:187][887]Cmd: ACTOR DUPLICATE
+[2023.04.10-01.27.52:116][954]LogEditorViewport: Clicking Background
+[2023.04.10-01.28.05:833][596]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2023.04.10-01.28.27:090][139]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2023.04.10-01.28.32:880][831]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush)
+[2023.04.10-01.28.35:244][111]Cmd: DUPLICATE
+[2023.04.10-01.28.35:244][111]Cmd: ACTOR DUPLICATE
+[2023.04.10-01.28.39:789][651]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2023.04.10-01.28.45:524][338]LogEditorViewport: Clicking Background
+[2023.04.10-01.28.54:875][458]Cmd: DUPLICATE
+[2023.04.10-01.28.54:875][458]Cmd: ACTOR DUPLICATE
+[2023.04.10-01.29.21:316][620]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2023.04.10-01.30.03:647][693]LogGeometryMode: Warning: Unable to find BoxBrush2 Brush(s) in new BSP
+[2023.04.10-01.30.03:647][693]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
+[2023.04.10-01.30.06:650][ 51]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2023.04.10-01.30.30:060][853]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2023.04.10-01.30.36:143][581]LogGeometryMode: Warning: Unable to find BoxBrush2 Brush(s) in new BSP
+[2023.04.10-01.30.36:143][581]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
+[2023.04.10-01.30.48:137][ 15]LogEditorViewport: Clicking Background
+[2023.04.10-01.31.03:237][822]LogEditorViewport: Clicking Background
+[2023.04.10-01.31.21:739][ 42]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2023.04.10-01.31.29:383][958]Cmd: BRUSH SUBTRACT SELECTNEWBRUSH
+[2023.04.10-01.31.53:742][877]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2023.04.10-01.32.16:705][626]LogGeometryMode: Warning: Unable to find BoxBrush3 Brush(s) in new BSP
+[2023.04.10-01.32.16:705][626]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
+[2023.04.10-01.32.28:098][986]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2023.04.10-01.32.28:750][ 64]LogEditorViewport: Clicking Background
+[2023.04.10-01.32.29:242][123]LogEditorViewport: Clicking Background
+[2023.04.10-01.32.29:325][133]LogEditorViewport: Clicking Background
+[2023.04.10-01.32.29:767][186]LogEditorViewport: Clicking Background
+[2023.04.10-01.32.30:025][217]LogEditorViewport: Clicking Background
+[2023.04.10-01.32.31:794][429]LogEditorViewport: Clicking Background
+[2023.04.10-01.32.31:993][453]LogEditorViewport: Clicking Background
+[2023.04.10-01.32.32:419][504]LogEditorViewport: Clicking Background
+[2023.04.10-01.32.33:260][605]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2023.04.10-01.32.42:734][740]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2023.04.10-01.33.18:426][ 17]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2023.04.10-01.33.19:656][165]Cmd: TRANSACTION UNDO
+[2023.04.10-01.33.19:656][165]LogEditorTransaction: Undo Move Actors
+[2023.04.10-01.33.19:660][165]LogGeometryMode: Warning: Unable to find 1 Poly(s) in new BSP
+[2023.04.10-01.33.19:660][165]LogGeometryMode: Warning: Unable to resolve BoxBrush6 Brush in new BSP, see above
+[2023.04.10-01.33.19:660][165]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
+[2023.04.10-01.33.26:130][940]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2023.04.10-01.33.41:695][805]LogGeometryMode: Warning: Unable to find BoxBrush3 Brush(s) in new BSP
+[2023.04.10-01.33.41:695][805]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
+[2023.04.10-01.33.46:275][352]LogEditorViewport: Clicking Background
+[2023.04.10-01.33.46:783][413]LogEditorViewport: Clicking Background
+[2023.04.10-01.33.47:208][464]LogEditorViewport: Clicking Background
+[2023.04.10-01.33.47:994][558]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2023.04.10-01.33.53:268][190]LogEditorViewport: Clicking Background
+[2023.04.10-01.33.54:793][373]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2023.04.10-01.33.56:438][570]Cmd: DUPLICATE
+[2023.04.10-01.33.56:438][570]Cmd: ACTOR DUPLICATE
+[2023.04.10-01.33.59:649][952]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2023.04.10-01.34.04:621][547]LogEditorViewport: Clicking Background
+[2023.04.10-01.34.32:214][ 63]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1" FILE="../../../../../../GameDev/CrystalCavern/Saved/Autosaves/Game/Levels/Level1_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2023.04.10-01.34.32:246][ 63]LogSavePackage: Moving '../../../../../../GameDev/CrystalCavern/Saved/Level1_Auto19AC79E3C4CB519659C4D38BC7D164EDC.tmp' to '../../../../../../GameDev/CrystalCavern/Saved/Autosaves/Game/Levels/Level1_Auto1.umap'
+[2023.04.10-01.34.32:247][ 63]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Level1' took 0.050
+[2023.04.10-01.34.32:247][ 63]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.050
+[2023.04.10-01.38.02:252][688]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2023.04.10-01.38.06:312][167]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2023.04.10-01.38.28:000][766]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2023.04.10-01.38.42:776][539]LogEditorViewport: Clicking Background
+[2023.04.10-01.38.53:041][769]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2023.04.10-01.38.55:029][940]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2023.04.10-01.38.55:046][940]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2023.04.10-01.38.55:076][941]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.CrystalCavern
+[2023.04.10-01.38.55:076][941]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2023.04.10-01.38.55:076][941]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.20
+[2023.04.10-01.38.55:076][941]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2023.04.10-01.38.55:076][941]LogTemp: BranchPath = DESKTOP-U1RK44O/C/Program Files/Epic Games/UE_4.20/Engine/Binaries --- GameBranchPath = DESKTOP-U1RK44O/C/Program Files/Epic Games/UE_4.20/Engine/Binaries
+[2023.04.10-01.38.55:076][941]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\dcalt\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2023.04.10-01.39.22:569][966]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2023.04.10-01.42.09:074][942]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2023.04.10-01.42.10:180][ 74]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2023.04.10-01.42.15:260][682]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2023.04.10-01.42.16:501][831]MapCheck: New page: Map Check
+[2023.04.10-01.42.16:510][831]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2023.04.10-01.42.16:512][831]Cmd: MAP REBUILD ALLVISIBLE
+[2023.04.10-01.42.16:513][831]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2023.04.10-01.42.16:521][831]LightingResults: New page: Lighting Build - Apr 9, 2023, 5:42:16 PM
+[2023.04.10-01.42.16:553][831]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2023.04.10-01.42.16:597][831]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2023.04.10-01.42.16:608][831]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2023.04.10-01.42.17:124][831]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2023.04.10-01.42.17:124][831]LogSwarmInterface: [TryOpenConnection] Local Process ID is 7008
+[2023.04.10-01.42.21:753][831]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2023.04.10-01.42.21:753][831]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2023.04.10-01.42.21:753][831]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2023.04.10-01.42.21:753][831]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2023.04.10-01.42.21:753][831]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2023.04.10-01.42.21:753][831]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2023.04.10-01.42.21:872][831]LogEditorBuildUtils: Build time 0:05
+[2023.04.10-01.42.23:887][973]Job is a success!
+[2023.04.10-01.42.23:911][974]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2023.04.10-01.42.23:926][974]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.008s
+[2023.04.10-01.42.23:926][974]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2023.04.10-01.42.23:926][974]LogVolumetricLightmapImport:      BrickData 30x5x5 = 0.0Mb (trimmed 0.0Mb due to 0.010000 MinBrickError)
+[2023.04.10-01.42.23:926][974]LogVolumetricLightmapImport:      Bricks at Level
+[2023.04.10-01.42.23:926][974]LogVolumetricLightmapImport:          0: 16.7% covering 100.0% of volume
+[2023.04.10-01.42.23:926][974]LogVolumetricLightmapImport:          1: 16.7% covering 1.6% of volume
+[2023.04.10-01.42.23:926][974]LogVolumetricLightmapImport:          2: 66.7% covering 0.1% of volume
+[2023.04.10-01.42.23:950][974]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 256X256)
+[2023.04.10-01.42.23:950][974]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 256X256)
+[2023.04.10-01.42.23:950][974]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 256X128)
+[2023.04.10-01.42.23:968][974]Lightmass on DESKTOP-U1RK44O: 1.62 sec total, 119 ms importing, 11 ms setup, 999 ms photons, 457 ms processing, 0 ms extra exporting [39/39 mappings]. Threads: 4.33 sec total, 51 ms processing.
+[2023.04.10-01.42.23:993][974]LogStaticLightingSystem: Illumination: 7.46 sec (6 ms encoding lightmaps, 7 ms encoding shadowmaps)
+[2023.04.10-01.42.23:993][974]LogStaticLightingSystem: Lightmap texture memory:  0.1 MB (0.0 MB streaming, 0.1 MB non-streaming), 2 textures
+[2023.04.10-01.42.23:993][974]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 1 textures
+[2023.04.10-01.42.24:759][974]DumpUnbuiltLightIteractions
+[2023.04.10-01.42.24:759][974]Lights with unbuilt interactions: 0
+[2023.04.10-01.42.24:759][974]
+[2023.04.10-01.42.24:759][974]Primitives with unbuilt interactions: 0
+[2023.04.10-01.42.24:764][974]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2023.04.10-01.42.24:775][975]Cmd: MAP CHECK NOTIFYRESULTS
+[2023.04.10-01.42.24:775][975]MapCheck: New page: Level1 - Apr 9, 2023, 5:42:24 PM
+[2023.04.10-01.42.24:836][975]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 60.21ms to complete.
+[2023.04.10-01.42.33:429][  3]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2023.04.10-01.42.34:791][164]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2023.04.10-01.42.34:860][164]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1" FILE="../../../../../../GameDev/CrystalCavern/Content/Levels/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.04.10-01.42.34:890][164]LogSavePackage: Moving '../../../../../../GameDev/CrystalCavern/Saved/Level1E984030D46C725A6AB915DAA61D0153E.tmp' to '../../../../../../GameDev/CrystalCavern/Content/Levels/Level1.umap'
+[2023.04.10-01.42.34:900][164]LogFileHelpers: Saving map 'Level1' took 0.100
+[2023.04.10-01.42.34:902][164]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1_BuiltData" FILE="../../../../../../GameDev/CrystalCavern/Content/Levels/Level1_BuiltData.uasset" SILENT=true
+[2023.04.10-01.42.34:907][164]LogSavePackage: Moving '../../../../../../GameDev/CrystalCavern/Saved/Level1_BuiltDataE5A36F2B48F47E5458B67E9A09F17436.tmp' to '../../../../../../GameDev/CrystalCavern/Content/Levels/Level1_BuiltData.uasset'
+[2023.04.10-01.49.14:308][245]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2023.04.10-01.49.47:058][166]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2023.04.10-01.50.16:737][119]LogSlate: Window 'Color Picker' being destroyed
+[2023.04.10-01.51.28:234][694]LogEditorViewport: Clicking Background
+[2023.04.10-01.52.00:539][570]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2023.04.10-01.52.24:815][478]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2023.04.10-01.52.43:830][759]LogSlate: Window 'Color Picker' being destroyed
+[2023.04.10-01.52.55:169][117]LogEditorViewport: Clicking Background
+[2023.04.10-01.53.19:327][ 94]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2023.04.10-01.53.27:265][ 44]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2023.04.10-01.53.37:714][293]LogSlate: Window 'Color Picker' being destroyed
+[2023.04.10-01.53.57:566][675]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2023.04.10-01.54.41:070][594]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2023.04.10-01.54.41:206][609]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1" FILE="../../../../../../GameDev/CrystalCavern/Content/Levels/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.04.10-01.54.41:237][609]LogSavePackage: Moving '../../../../../../GameDev/CrystalCavern/Saved/Level15B38E2F4447C949AAA2B0FA4C1843C0D.tmp' to '../../../../../../GameDev/CrystalCavern/Content/Levels/Level1.umap'
+[2023.04.10-01.54.41:249][609]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1_BuiltData" FILE="../../../../../../GameDev/CrystalCavern/Content/Levels/Level1_BuiltData.uasset" SILENT=true
+[2023.04.10-01.54.41:255][609]LogSavePackage: Moving '../../../../../../GameDev/CrystalCavern/Saved/Level1_BuiltData13FF66604ED250B8B36635B946F4894F.tmp' to '../../../../../../GameDev/CrystalCavern/Content/Levels/Level1_BuiltData.uasset'
+[2023.04.10-01.54.54:909][131]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2023.04.10-01.54.57:782][473]LogEditorActor: Deleted Actor: SkyLight
+[2023.04.10-01.54.57:800][473]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2023.04.10-01.55.03:261][127]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2023.04.10-01.55.03:612][169]LogEditorActor: Deleted Actor: PointLight
+[2023.04.10-01.55.03:629][169]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2023.04.10-01.55.07:702][658]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight)
+[2023.04.10-01.55.09:414][861]Cmd: DUPLICATE
+[2023.04.10-01.55.09:414][861]Cmd: ACTOR DUPLICATE
+[2023.04.10-01.55.13:293][324]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight)
+[2023.04.10-01.55.14:836][507]Cmd: DUPLICATE
+[2023.04.10-01.55.14:836][507]Cmd: ACTOR DUPLICATE
+[2023.04.10-01.55.20:006][124]Cmd: SELECT NONE
+[2023.04.10-01.55.30:337][359]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2023.04.10-01.55.38:729][896]Cmd: POLY SELECT ADJACENT ALL
+[2023.04.10-01.55.46:387][809]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2023.04.10-01.56.08:082][394]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2023.04.10-01.56.09:170][525]Cmd: POLY SELECT ADJACENT ALL
+[2023.04.10-01.56.10:621][698]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2023.04.10-01.56.30:276][519]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2023.04.10-01.56.33:644][923]Cmd: POLY SELECT ADJACENT ALL
+[2023.04.10-01.56.47:817][615]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2023.04.10-01.56.49:981][871]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2023.04.10-01.56.51:086][  4]Cmd: POLY SELECT ADJACENT ALL
+[2023.04.10-01.56.51:812][ 90]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2023.04.10-01.56.56:737][677]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2023.04.10-01.56.57:759][800]Cmd: POLY SELECT ADJACENT ALL
+[2023.04.10-01.56.58:562][895]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2023.04.10-01.57.22:209][699]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2023.04.10-01.57.22:326][712]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1" FILE="../../../../../../GameDev/CrystalCavern/Content/Levels/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.04.10-01.57.22:357][712]LogSavePackage: Moving '../../../../../../GameDev/CrystalCavern/Saved/Level14F70EA1840EDE6833E6479993CE8974D.tmp' to '../../../../../../GameDev/CrystalCavern/Content/Levels/Level1.umap'
+[2023.04.10-01.57.22:368][712]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1_BuiltData" FILE="../../../../../../GameDev/CrystalCavern/Content/Levels/Level1_BuiltData.uasset" SILENT=true
+[2023.04.10-01.57.22:374][712]LogSavePackage: Moving '../../../../../../GameDev/CrystalCavern/Saved/Level1_BuiltData9C0760C64DB3680AD9919AAFBB89B6C5.tmp' to '../../../../../../GameDev/CrystalCavern/Content/Levels/Level1_BuiltData.uasset'
+[2023.04.10-01.57.38:203][977]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2023.04.10-01.57.39:485][130]LogEditorViewport: Clicking Background
+[2023.04.10-01.57.40:708][276]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2023.04.10-01.57.40:815][288]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1" FILE="../../../../../../GameDev/CrystalCavern/Content/Levels/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.04.10-01.57.40:846][288]LogSavePackage: Moving '../../../../../../GameDev/CrystalCavern/Saved/Level1219BE4AA456CD43EBFD5E294C6ABF332.tmp' to '../../../../../../GameDev/CrystalCavern/Content/Levels/Level1.umap'
+[2023.04.10-01.57.40:857][288]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1_BuiltData" FILE="../../../../../../GameDev/CrystalCavern/Content/Levels/Level1_BuiltData.uasset" SILENT=true
+[2023.04.10-01.57.40:863][288]LogSavePackage: Moving '../../../../../../GameDev/CrystalCavern/Saved/Level1_BuiltData8CB71A1E48426A0E53E4308FCA21096F.tmp' to '../../../../../../GameDev/CrystalCavern/Content/Levels/Level1_BuiltData.uasset'
+[2023.04.10-01.57.41:823][402]LogSlate: FSceneViewport::OnFocusLost() reason 2
