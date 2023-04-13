@@ -883,31 +883,3 @@ LogInit: Object subsystem initialized
 [2023.04.13-04.04.48:325][230]LogOutputDevice: Error: [Callstack] 0x00007ff88c2426a1 ntdll.dll!UnknownFunction []
 [2023.04.13-04.04.48:325][230]LogOutputDevice: Error: 
 [2023.04.13-04.04.48:332][230]LogStats:                SubmitErrorReport -  0.000 s
-[2023.04.13-04.04.48:873][230]LogStats:                    SendNewReport -  0.541 s
-[2023.04.13-04.04.48:873][230]LogStats:             FDebug::EnsureFailed -  1.157 s
-[2023.04.13-04.05.33:065][666]BlueprintLog: New page: Compile BP_PlayerPawn
-[2023.04.13-04.05.33:774][733]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_PlayerPawn" FILE="../../../../../../GameDev/CrystalCavern/Content/Blueprints/BP_PlayerPawn.uasset" SILENT=true
-[2023.04.13-04.05.33:791][733]LogSavePackage: Moving '../../../../../../GameDev/CrystalCavern/Saved/BP_PlayerPawnC155F8C846A5473F29BE2B97E81AD8C2.tmp' to '../../../../../../GameDev/CrystalCavern/Content/Blueprints/BP_PlayerPawn.uasset'
-[2023.04.13-04.05.34:293][793]LogTemp: Repeating last play command: Selected Viewport
-[2023.04.13-04.05.34:303][793]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
-[2023.04.13-04.05.34:303][793]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2023.04.13-04.05.34:303][793]PIE: New page: PIE session: Level1 (Apr 12, 2023, 8:05:34 PM)
-[2023.04.13-04.05.34:303][793]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
-[2023.04.13-04.05.34:306][793]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002407s)
-[2023.04.13-04.05.34:306][793]LogAIModule: Creating AISystem for world Level1
-[2023.04.13-04.05.34:306][793]LogPlayLevel: PIE: World Init took: (0.000436s)
-[2023.04.13-04.05.34:306][793]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.002912s)
-[2023.04.13-04.05.34:335][793]LogInit: XAudio2 using '32S321 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2023.04.13-04.05.34:342][793]LogInit: FAudioDevice initialized.
-[2023.04.13-04.05.34:348][793]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2023.04.13-04.05.34:379][793]LogLoad: Game class is 'B_GameMode_C'
-[2023.04.13-04.05.34:380][793]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2023.04.13-00.05.34
-[2023.04.13-04.05.34:380][793]LogWorld: Bringing up level for play took: 0.000765
-[2023.04.13-04.05.34:393][793]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level1 -0.666
-[2023.04.13-04.05.34:398][793]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
-[2023.04.13-04.05.43:406][861]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
-[2023.04.13-04.05.43:417][861]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2023.04.13-04.05.43:424][861]LogSlate: Window 'CrystalCavern Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2023.04.13-04.05.43:456][861]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2023.04.13-04.05.43:456][861]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
-[2023.04.13-04.05.43:507][862]LogPlayLevel: Display: Destroying online subsystem :Context_20
