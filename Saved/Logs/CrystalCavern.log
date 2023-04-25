@@ -1,4 +1,4 @@
-﻿Log file open, 04/25/23 11:57:50
+﻿Log file open, 04/25/23 12:33:08
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -10,7 +10,7 @@ LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: CrystalCavern
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.541992
+LogStats: Stats thread started at 0.541848
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -93,7 +93,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.118s to configure plugins.
+LogStreaming: Display: Took  0.101s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -147,581 +147,228 @@ LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC
 LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
 LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
 LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
-LogStreaming: Display: Took  0.003s to delete old logs.
+LogStreaming: Display: Took  0.001s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2023.04.25-15.57.51:238][  0]LogInit: Selected Device Profile: [Windows]
-[2023.04.25-15.57.51:238][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2023.04.25-15.57.51:248][  0]LogHAL: Display: Platform has ~ 32 GB [34273423360 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2023.04.25-15.57.51:248][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
-[2023.04.25-15.57.51:248][  0]LogInit: Going up to parent DeviceProfile []
-[2023.04.25-15.57.51:249][  0]LogInit: Computer: DESKTOP-U1RK44O
-[2023.04.25-15.57.51:249][  0]LogInit: User: dcalt
-[2023.04.25-15.57.51:249][  0]LogInit: CPU Page size=4096, Cores=6
-[2023.04.25-15.57.51:249][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2023.04.25-15.57.51:249][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
-[2023.04.25-15.57.51:249][  0]LogMemory: Platform Memory Stats for Windows
-[2023.04.25-15.57.51:249][  0]LogMemory: Process Physical Memory: 102.75 MB used, 102.75 MB peak
-[2023.04.25-15.57.51:249][  0]LogMemory: Process Virtual Memory: 85.81 MB used, 85.81 MB peak
-[2023.04.25-15.57.51:249][  0]LogMemory: Physical Memory: 10160.22 MB used,  22525.46 MB free, 32685.68 MB total
-[2023.04.25-15.57.51:249][  0]LogMemory: Virtual Memory: 4641.40 MB used,  22525.46 MB free, 134217728.00 MB total
-[2023.04.25-15.57.51:273][  0]LogInit: Using OS detected language (en-US).
-[2023.04.25-15.57.51:273][  0]LogInit: Using OS detected locale (en-US).
-[2023.04.25-15.57.51:274][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2023.04.25-15.57.51:528][  0]LogStreaming: Display: Took  0.255s to InitEngineTextLocalization.
-[2023.04.25-15.57.51:528][  0]LogInit: Setting process to per monitor DPI aware
-[2023.04.25-15.57.51:549][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2023.04.25-15.57.51:549][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2023.04.25-15.57.51:693][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2023.04.25-15.57.51:693][  0]LogD3D11RHI: D3D11 adapters:
-[2023.04.25-15.57.51:790][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 3060' (Feature Level 11_0)
-[2023.04.25-15.57.51:791][  0]LogD3D11RHI:       12129/0/16342 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2023.04.25-15.57.51:792][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2023.04.25-15.57.51:792][  0]LogD3D11RHI:       0/0/16342 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2023.04.25-15.57.51:792][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2023.04.25-15.57.51:797][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2023.04.25-15.57.51:797][  0]LogD3D11RHI:     GPU DeviceId: 0x2504 (for the marketing name, search the web for "GPU Device Id")
-[2023.04.25-15.57.51:797][  0]LogWindows: EnumDisplayDevices:
-[2023.04.25-15.57.51:797][  0]LogWindows:    0. 'NVIDIA GeForce RTX 3060' (P:1 D:1)
-[2023.04.25-15.57.51:798][  0]LogWindows:    1. 'NVIDIA GeForce RTX 3060' (P:0 D:1)
-[2023.04.25-15.57.51:798][  0]LogWindows:    2. 'NVIDIA GeForce RTX 3060' (P:0 D:0)
-[2023.04.25-15.57.51:798][  0]LogWindows:    3. 'NVIDIA GeForce RTX 3060' (P:0 D:0)
-[2023.04.25-15.57.51:798][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2023.04.25-15.57.51:798][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 3060
-[2023.04.25-15.57.51:798][  0]LogD3D11RHI:   Driver Version: 526.98 (internal:31.0.15.2698, unified:526.98)
-[2023.04.25-15.57.51:798][  0]LogD3D11RHI:      Driver Date: 11-13-2022
-[2023.04.25-15.57.51:798][  0]LogRHI: Texture pool is 8490 MB (70% of 12129 MB)
-[2023.04.25-15.57.51:860][  0]LogD3D11RHI: Async texture creation enabled
-[2023.04.25-15.57.51:882][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2023.04.25-15.57.51:884][  0]LogShaderCompilers: Guid format shader working directory is 6 characters bigger than the processId version (../../../../../../GameDev/CrystalCavern/Intermediate/Shaders/WorkingDirectory/14380/).
-[2023.04.25-15.57.51:884][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/dcalt/AppData/Local/Temp/UnrealShaderWorkingDir/2717AD1B48B1CD795C72DAB16AA82CB3/'.
-[2023.04.25-15.57.52:051][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2023.04.25-15.57.52:059][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2023.04.25-15.57.52:067][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2023.04.25-15.57.52:075][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2023.04.25-15.57.52:083][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2023.04.25-15.57.52:090][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2023.04.25-15.57.52:098][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2023.04.25-15.57.52:106][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2023.04.25-15.57.52:110][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2023.04.25-15.57.52:156][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2023.04.25-15.57.52:156][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2023.04.25-15.57.52:157][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2023.04.25-15.57.52:157][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2023.04.25-15.57.52:157][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2023.04.25-15.57.52:157][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2023.04.25-15.57.52:157][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2023.04.25-15.57.52:157][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2023.04.25-15.57.52:157][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2023.04.25-15.57.52:157][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2023.04.25-15.57.52:157][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2023.04.25-15.57.52:157][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2023.04.25-15.57.52:157][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2023.04.25-15.57.52:157][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2023.04.25-15.57.52:157][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2023.04.25-15.57.52:157][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2023.04.25-15.57.52:157][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2023.04.25-15.57.52:157][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2023.04.25-15.57.52:158][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2023.04.25-15.57.52:206][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2023.04.25-15.57.52:206][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2023.04.25-15.57.52:220][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2023.04.25-15.57.52:220][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2023.04.25-15.57.52:228][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2023.04.25-15.57.52:235][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2023.04.25-15.57.52:243][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2023.04.25-15.57.52:250][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2023.04.25-15.57.52:256][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2023.04.25-15.57.52:256][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2023.04.25-15.57.52:290][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2023.04.25-15.57.52:290][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2023.04.25-15.57.52:290][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2023.04.25-15.57.52:858][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2023.04.25-15.57.52:888][  0]LogDerivedDataCache: Loaded boot cache 0.03s 71MB C:/Users/dcalt/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2023.04.25-15.57.52:889][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/dcalt/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
-[2023.04.25-15.57.52:889][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../GameDev/CrystalCavern/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2023.04.25-15.57.52:889][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2023.04.25-15.57.52:889][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../GameDev/CrystalCavern/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2023.04.25-15.57.52:889][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2023.04.25-15.57.52:898][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2023.04.25-15.57.52:910][  0]LogDerivedDataCache: Using Local data cache path C:/Users/dcalt/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2023.04.25-15.57.52:910][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2023.04.25-15.57.52:910][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2023.04.25-15.57.52:921][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2023.04.25-15.57.52:922][  0]LogSlate: Using FreeType 2.6.0
-[2023.04.25-15.57.52:922][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2023.04.25-15.57.52:980][  0]LogAssetRegistry: FAssetRegistry took 0.0245 seconds to start up
-[2023.04.25-15.57.53:187][  0]LogInit: Selected Device Profile: [Windows]
-[2023.04.25-15.57.53:273][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2023.04.25-15.57.53:275][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2023.04.25-15.57.53:275][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2023.04.25-15.57.53:275][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2023.04.25-15.57.53:275][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2023.04.25-15.57.53:288][  0]LogNetVersion: CrystalCavern 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1954901415)
-[2023.04.25-15.57.53:618][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.059682 seconds
-[2023.04.25-15.57.53:622][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
-[2023.04.25-15.57.53:622][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
-[2023.04.25-15.57.53:622][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2023.04.25-15.57.54:198][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2023.04.25-15.57.54:211][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2023.04.25-15.57.54:320][  0]SourceControl: Source control is disabled
-[2023.04.25-15.57.54:320][  0]SourceControl: Source control is disabled
-[2023.04.25-15.57.54:321][  0]SourceControl: Source control is disabled
-[2023.04.25-15.57.54:322][  0]SourceControl: Source control is disabled
-[2023.04.25-15.57.54:457][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2023.04.25-15.57.54:494][  0]LogOcInput: OculusInput pre-init called
-[2023.04.25-15.57.54:534][  0]LogEngine: Initializing Engine...
-[2023.04.25-15.57.54:535][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2023.04.25-15.57.54:536][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2023.04.25-15.57.54:536][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2023.04.25-15.57.54:536][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2023.04.25-15.57.54:536][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2023.04.25-15.57.54:667][  0]LogInit: Initializing FReadOnlyCVARCache
-[2023.04.25-15.57.54:675][  0]LogAIModule: Creating AISystem for world Untitled
-[2023.04.25-15.57.54:687][  0]LogInit: XAudio2 using '32S321 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2023.04.25-15.57.54:713][  0]LogInit: FAudioDevice initialized.
-[2023.04.25-15.57.54:713][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2023.04.25-15.57.54:756][  0]LogDerivedDataCache: Saved boot cache 0.04s 71MB C:/Users/dcalt/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2023.04.25-15.57.54:758][  0]LogInit: Texture streaming: Enabled
-[2023.04.25-15.57.54:770][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2023.04.25-15.57.54:780][  0]LogInit: Transaction tracking system initialized
-[2023.04.25-15.57.54:793][  0]BlueprintLog: New page: Editor Load
-[2023.04.25-15.57.54:841][  0]LocalizationService: Localization service is disabled
-[2023.04.25-15.57.55:012][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2023.04.25-15.57.55:012][  0]LogCook: Display: Mobile HDR setting 1
-[2023.04.25-15.57.55:012][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2023.04.25-15.57.55:012][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2023.04.25-15.57.55:012][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2023.04.25-15.57.55:012][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2023.04.25-15.57.55:012][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2023.04.25-15.57.55:078][  0]LogFileCache: Scanning file cache for directory 'C:/GameDev/CrystalCavern/Content/' took 0.02s
-[2023.04.25-15.57.55:078][  0]SourceControl: Source control is disabled
-[2023.04.25-15.57.55:078][  0]Cmd: MAP LOAD FILE="../../../../../../GameDev/CrystalCavern/Content/Levels/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2023.04.25-15.57.55:078][  0]LightingResults: New page: Lighting Build
-[2023.04.25-15.57.55:080][  0]MapCheck: New page: Map Check
-[2023.04.25-15.57.55:080][  0]LightingResults: New page: Lighting Build
-[2023.04.25-15.57.55:371][  0]LogAIModule: Creating AISystem for world Level1
-[2023.04.25-15.57.55:380][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2023.04.25-15.57.55:398][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2023.04.25-15.57.55:457][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 59.112ms to complete.
-[2023.04.25-15.57.55:457][  0]LogFileHelpers: Loading map 'Level1' took 0.379
-[2023.04.25-15.57.55:573][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2023.04.25-15.57.55:578][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2023.04.25-15.57.55:583][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2023.04.25-15.57.55:587][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2023.04.25-15.57.55:599][  0]LogCollectionManager: Loaded 0 collections in 0.000948 seconds
-[2023.04.25-15.57.55:652][  0]LogFileCache: Scanning file cache for directory 'C:/GameDev/CrystalCavern/Saved/Collections/' took 0.01s
-[2023.04.25-15.57.55:652][  0]LogFileCache: Scanning file cache for directory 'C:/GameDev/CrystalCavern/Content/Developers/dcalt/Collections/' took 0.01s
-[2023.04.25-15.57.55:652][  0]LogFileCache: Scanning file cache for directory 'C:/GameDev/CrystalCavern/Content/Collections/' took 0.01s
-[2023.04.25-15.57.55:652][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2023.04.25-15.57.55:662][  0]LogContentBrowser: Native class hierarchy populated in 0.0080 seconds. Added 2572 classes and 603 folders.
-[2023.04.25-15.57.55:671][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2023.04.25-15.57.55:907][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2023.04.25-15.57.55:917][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
-[2023.04.25-15.57.56:030][  0]LogSlate: Took 0.000123 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2023.04.25-15.57.56:033][  0]LogSlate: Took 0.000296 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2023.04.25-15.57.56:041][  0]LogSlate: Took 0.003797 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2023.04.25-15.57.56:139][  0]LogRenderer: Reallocating scene render targets to support 1340x696 Format 10 NumSamples 1 (Frame:1).
-[2023.04.25-15.57.56:249][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2023.04.25-15.57.56:250][  0]LogLoad: (Engine Initialization) Total time: 6.89 seconds
-[2023.04.25-15.57.56:250][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2023.04.25-15.57.56:273][  0]LogAssetRegistry: Asset discovery search completed in 3.3150 seconds
-[2023.04.25-15.57.56:274][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2023.04.25-15.57.56:274][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000024 seconds (updated 0 objects)
-[2023.04.25-15.57.56:276][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2023.04.25-15.57.56:299][  0]LogSlate: Took 0.005465 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2023.04.25-16.00.03:977][285]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2023.04.25-16.00.09:953][969]LogSlate: Took 0.000147 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2023.04.25-16.00.09:957][969]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Actors/Player/BP_PlayerPawn.BP_PlayerPawn
-[2023.04.25-16.00.10:317][969]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0004 seconds. Added 116 classes and 0 folders.
-[2023.04.25-16.00.10:841][969]LogSlate: Took 0.003266 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2023.04.25-16.00.10:926][970]LogSlate: Took 0.003953 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2023.04.25-16.00.26:714][856]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Actors/LEvelTriggers/BP_LevelRestartTrigger.BP_LevelRestartTrigger
-[2023.04.25-16.00.28:962][ 98]LogSlate: Window 'BP_LevelRestartTrigger' being destroyed
-[2023.04.25-16.02.00:020][267]LogTemp: Repeating last play command: Selected Viewport
-[2023.04.25-16.02.00:037][267]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
-[2023.04.25-16.02.00:037][267]BlueprintLog: New page: Pre-Play auto-recompile
-[2023.04.25-16.02.00:041][267]LogPlayLevel: [PlayLevel] Compiling BP_PlayerPawn before play...
-[2023.04.25-16.02.00:127][267]LogPlayLevel: [PlayLevel] Compiling BP_LevelRestartTrigger before play...
-[2023.04.25-16.02.00:222][267]LogPlayLevel: PlayLevel: Blueprint regeneration took 183 ms (2 blueprints)
-[2023.04.25-16.02.00:235][267]PIE: New page: PIE session: Level1 (Apr 25, 2023, 8:02:00 AM)
-[2023.04.25-16.02.00:235][267]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
-[2023.04.25-16.02.00:239][267]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004027s)
-[2023.04.25-16.02.00:240][267]LogAIModule: Creating AISystem for world Level1
-[2023.04.25-16.02.00:240][267]LogPlayLevel: PIE: World Init took: (0.000429s)
-[2023.04.25-16.02.00:240][267]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.004540s)
-[2023.04.25-16.02.00:268][267]LogInit: XAudio2 using '32S321 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2023.04.25-16.02.00:274][267]LogInit: FAudioDevice initialized.
-[2023.04.25-16.02.00:315][267]LogLoad: Game class is 'B_GameMode_C'
-[2023.04.25-16.02.00:317][267]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2023.04.25-12.02.00
-[2023.04.25-16.02.00:318][267]LogWorld: Bringing up level for play took: 0.002198
-[2023.04.25-16.02.00:337][267]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0002 seconds. Added 10 classes and 0 folders.
-[2023.04.25-16.02.00:338][267]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level1 -0.21
-[2023.04.25-16.02.00:338][267]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
-[2023.04.25-16.02.16:698][227]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
-[2023.04.25-16.02.16:709][227]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2023.04.25-16.02.16:741][227]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2023.04.25-16.02.16:741][227]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
-[2023.04.25-16.02.16:763][227]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2023.04.25-16.02.16:800][230]LogPlayLevel: Display: Destroying online subsystem :Context_4
-[2023.04.25-16.02.19:383][540]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2023.04.25-16.04.05:434][ 99]BlueprintLog: New page: Compile BP_LevelRestartTrigger
-[2023.04.25-16.04.09:074][522]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1" FILE="../../../../../../GameDev/CrystalCavern/Content/Levels/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2023.04.25-16.04.09:197][522]LogSavePackage: Moving '../../../../../../GameDev/CrystalCavern/Saved/Level1686F2746402A42504012DCBDCFCC9DB6.tmp' to '../../../../../../GameDev/CrystalCavern/Content/Levels/Level1.umap'
-[2023.04.25-16.04.09:211][522]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1_BuiltData" FILE="../../../../../../GameDev/CrystalCavern/Content/Levels/Level1_BuiltData.uasset" SILENT=true
-[2023.04.25-16.04.09:224][522]LogSavePackage: Moving '../../../../../../GameDev/CrystalCavern/Saved/Level1_BuiltData70328CCC43587B28A4D867B4E889C715.tmp' to '../../../../../../GameDev/CrystalCavern/Content/Levels/Level1_BuiltData.uasset'
-[2023.04.25-16.04.09:625][570]LogTemp: Repeating last play command: Selected Viewport
-[2023.04.25-16.04.09:640][570]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
-[2023.04.25-16.04.09:640][570]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2023.04.25-16.04.09:640][570]PIE: New page: PIE session: Level1 (Apr 25, 2023, 8:04:09 AM)
-[2023.04.25-16.04.09:640][570]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
-[2023.04.25-16.04.09:643][570]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003219s)
-[2023.04.25-16.04.09:643][570]LogAIModule: Creating AISystem for world Level1
-[2023.04.25-16.04.09:644][570]LogPlayLevel: PIE: World Init took: (0.000454s)
-[2023.04.25-16.04.09:644][570]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.003739s)
-[2023.04.25-16.04.09:670][570]LogInit: XAudio2 using '32S321 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2023.04.25-16.04.09:678][570]LogInit: FAudioDevice initialized.
-[2023.04.25-16.04.09:717][570]LogLoad: Game class is 'B_GameMode_C'
-[2023.04.25-16.04.09:718][570]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2023.04.25-12.04.09
-[2023.04.25-16.04.09:718][570]LogWorld: Bringing up level for play took: 0.000894
-[2023.04.25-16.04.09:729][570]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level1 -0.819
-[2023.04.25-16.04.09:729][570]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
-[2023.04.25-16.04.15:317][239]LogNet: Browse: /Game/Levels/Level1
-[2023.04.25-16.04.15:317][239]LogLoad: LoadMap: /Game/Levels/Level1
-[2023.04.25-16.04.15:337][239]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
-[2023.04.25-16.04.15:340][239]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002931s)
-[2023.04.25-16.04.15:340][239]LogAIModule: Creating AISystem for world Level1
-[2023.04.25-16.04.15:341][239]LogPlayLevel: PIE: World Init took: (0.000370s)
-[2023.04.25-16.04.15:341][239]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.003395s)
-[2023.04.25-16.04.15:341][239]LogLoad: Game class is 'B_GameMode_C'
-[2023.04.25-16.04.15:341][239]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2023.04.25-12.04.15
-[2023.04.25-16.04.15:342][239]LogWorld: Bringing up level for play took: 0.000669
-[2023.04.25-16.04.15:342][239]LogLoad: Took 0.024803 seconds to LoadMap(/Game/Levels/UEDPIE_0_Level1)
-[2023.04.25-16.04.21:172][938]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
-[2023.04.25-16.04.21:172][938]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2023.04.25-16.04.21:202][938]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2023.04.25-16.04.21:202][938]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
-[2023.04.25-16.04.21:223][938]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2023.04.25-16.04.21:275][943]LogPlayLevel: Display: Destroying online subsystem :Context_5
-[2023.04.25-16.04.22:850][132]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2023.04.25-16.05.06:315][673]BlueprintLog: New page: Compile BP_LevelRestartTrigger
-[2023.04.25-16.05.07:867][844]LogTemp: Repeating last play command: Selected Viewport
-[2023.04.25-16.05.07:882][844]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
-[2023.04.25-16.05.07:882][844]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2023.04.25-16.05.07:883][844]PIE: New page: PIE session: Level1 (Apr 25, 2023, 8:05:07 AM)
-[2023.04.25-16.05.07:883][844]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
-[2023.04.25-16.05.07:886][844]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003015s)
-[2023.04.25-16.05.07:886][844]LogAIModule: Creating AISystem for world Level1
-[2023.04.25-16.05.07:886][844]LogPlayLevel: PIE: World Init took: (0.000417s)
-[2023.04.25-16.05.07:886][844]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.003499s)
-[2023.04.25-16.05.07:913][844]LogInit: XAudio2 using '32S321 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2023.04.25-16.05.07:920][844]LogInit: FAudioDevice initialized.
-[2023.04.25-16.05.07:949][844]LogLoad: Game class is 'B_GameMode_C'
-[2023.04.25-16.05.07:950][844]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2023.04.25-12.05.07
-[2023.04.25-16.05.07:950][844]LogWorld: Bringing up level for play took: 0.000836
-[2023.04.25-16.05.07:961][844]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level1 -0.587
-[2023.04.25-16.05.07:961][844]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
-[2023.04.25-16.05.13:258][479]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
-[2023.04.25-16.05.13:258][479]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2023.04.25-16.05.13:289][479]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2023.04.25-16.05.13:289][479]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
-[2023.04.25-16.05.13:311][479]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2023.04.25-16.05.13:357][484]LogPlayLevel: Display: Destroying online subsystem :Context_6
-[2023.04.25-16.05.14:427][612]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2023.04.25-16.05.35:975][186]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Actors/Projectiles/BP_Projectiles.BP_Projectiles
-[2023.04.25-16.06.00:162][ 62]BlueprintLog: New page: Compile BP_Projectiles
-[2023.04.25-16.06.01:222][177]LogTemp: Repeating last play command: Selected Viewport
-[2023.04.25-16.06.01:230][177]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
-[2023.04.25-16.06.01:230][177]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2023.04.25-16.06.01:230][177]PIE: New page: PIE session: Level1 (Apr 25, 2023, 8:06:01 AM)
-[2023.04.25-16.06.01:230][177]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
-[2023.04.25-16.06.01:233][177]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002931s)
-[2023.04.25-16.06.01:234][177]LogAIModule: Creating AISystem for world Level1
-[2023.04.25-16.06.01:234][177]LogPlayLevel: PIE: World Init took: (0.000439s)
-[2023.04.25-16.06.01:234][177]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.003437s)
-[2023.04.25-16.06.01:261][177]LogInit: XAudio2 using '32S321 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2023.04.25-16.06.01:268][177]LogInit: FAudioDevice initialized.
-[2023.04.25-16.06.01:275][177]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2023.04.25-16.06.01:304][177]LogLoad: Game class is 'B_GameMode_C'
-[2023.04.25-16.06.01:305][177]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2023.04.25-12.06.01
-[2023.04.25-16.06.01:305][177]LogWorld: Bringing up level for play took: 0.000845
-[2023.04.25-16.06.01:318][177]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level1 0.77
-[2023.04.25-16.06.01:318][177]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
-[2023.04.25-16.06.01:325][177]LogRenderer: Reallocating scene render targets to support 1340x756 Format 10 NumSamples 1 (Frame:1).
-[2023.04.25-16.06.05:268][643]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
-[2023.04.25-16.06.05:268][643]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2023.04.25-16.06.05:275][643]LogSlate: Window 'CrystalCavern Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2023.04.25-16.06.05:311][643]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2023.04.25-16.06.05:311][643]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
-[2023.04.25-16.06.05:373][648]LogPlayLevel: Display: Destroying online subsystem :Context_9
-[2023.04.25-16.08.46:464][656]LogBlueprint: Error: [Compiler ] Event AnyDamage  cannot be placed in function graph
-[2023.04.25-16.08.46:464][656]LogBlueprint: Error: [Compiler ] Delay  cannot be placed in function graph
-[2023.04.25-16.08.46:464][656]BlueprintLog: New page: Collapse to Function
-[2023.04.25-16.08.46:464][656]BlueprintLog: Error: Event AnyDamage  cannot be placed in function graph
-[2023.04.25-16.08.46:464][656]BlueprintLog: Error: Delay  cannot be placed in function graph
-[2023.04.25-16.08.46:482][656]LogBlueprint: Warning: [Compiler ] [0657.13] Compile of  failed. 2 Fatal Issue(s) 0 Warning(s) [in 4 ms] ()
-[2023.04.25-16.09.28:049][639]BlueprintLog: New page: Collapse to Macro
-[2023.04.25-16.09.53:329][664]BlueprintLog: New page: Compile BP_PlayerPawn
-[2023.04.25-16.09.53:954][722]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Actors/Player/BP_PlayerPawn" FILE="../../../../../../GameDev/CrystalCavern/Content/Blueprints/Actors/Player/BP_PlayerPawn.uasset" SILENT=true
-[2023.04.25-16.09.53:979][722]LogSavePackage: Moving '../../../../../../GameDev/CrystalCavern/Saved/BP_PlayerPawn92B7000A47C2DC793A63E1B012EC0C40.tmp' to '../../../../../../GameDev/CrystalCavern/Content/Blueprints/Actors/Player/BP_PlayerPawn.uasset'
-[2023.04.25-16.09.57:484][135]LogTemp: Repeating last play command: Selected Viewport
-[2023.04.25-16.09.57:497][135]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
-[2023.04.25-16.09.57:497][135]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2023.04.25-16.09.57:497][135]PIE: New page: PIE session: Level1 (Apr 25, 2023, 8:09:57 AM)
-[2023.04.25-16.09.57:497][135]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
-[2023.04.25-16.09.57:500][135]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003011s)
-[2023.04.25-16.09.57:501][135]LogAIModule: Creating AISystem for world Level1
-[2023.04.25-16.09.57:501][135]LogPlayLevel: PIE: World Init took: (0.000449s)
-[2023.04.25-16.09.57:501][135]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.003525s)
-[2023.04.25-16.09.57:529][135]LogInit: XAudio2 using '32S321 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2023.04.25-16.09.57:537][135]LogInit: FAudioDevice initialized.
-[2023.04.25-16.09.57:569][135]LogLoad: Game class is 'B_GameMode_C'
-[2023.04.25-16.09.57:570][135]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2023.04.25-12.09.57
-[2023.04.25-16.09.57:570][135]LogWorld: Bringing up level for play took: 0.000836
-[2023.04.25-16.09.57:582][135]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level1 1.034
-[2023.04.25-16.09.57:582][135]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
-[2023.04.25-16.10.04:161][924]LogNet: Browse: /Game/Levels/Level1
-[2023.04.25-16.10.04:162][924]LogLoad: LoadMap: /Game/Levels/Level1
-[2023.04.25-16.10.04:183][924]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
-[2023.04.25-16.10.04:186][924]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002782s)
-[2023.04.25-16.10.04:186][924]LogAIModule: Creating AISystem for world Level1
-[2023.04.25-16.10.04:186][924]LogPlayLevel: PIE: World Init took: (0.000370s)
-[2023.04.25-16.10.04:187][924]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.003255s)
-[2023.04.25-16.10.04:187][924]LogLoad: Game class is 'B_GameMode_C'
-[2023.04.25-16.10.04:187][924]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2023.04.25-12.10.04
-[2023.04.25-16.10.04:188][924]LogWorld: Bringing up level for play took: 0.000677
-[2023.04.25-16.10.04:188][924]LogLoad: Took 0.026456 seconds to LoadMap(/Game/Levels/UEDPIE_0_Level1)
-[2023.04.25-16.10.23:680][260]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
-[2023.04.25-16.10.23:680][260]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2023.04.25-16.10.23:710][260]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2023.04.25-16.10.23:710][260]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
-[2023.04.25-16.10.23:732][260]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2023.04.25-16.10.23:783][265]LogPlayLevel: Display: Destroying online subsystem :Context_12
-[2023.04.25-16.10.25:750][501]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2023.04.25-16.11.02:279][943]LogMetaData: Removing '/Game/Blueprints/Actors/LEvelTriggers/BP_DamageVolume.BP_DamageVolume_C' ref from Metadata '/Game/Blueprints/Actors/LEvelTriggers/BP_LevelRestartTrigger.PackageMetaData'
-[2023.04.25-16.11.02:279][943]LogMetaData: Removing '/Game/Blueprints/Actors/LEvelTriggers/BP_DamageVolume.BP_DamageVolume:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/Actors/LEvelTriggers/BP_LevelRestartTrigger.PackageMetaData'
-[2023.04.25-16.11.02:279][943]LogMetaData: Removing '/Game/Blueprints/Actors/LEvelTriggers/BP_DamageVolume.BP_DamageVolume:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Blueprints/Actors/LEvelTriggers/BP_LevelRestartTrigger.PackageMetaData'
-[2023.04.25-16.11.02:279][943]LogMetaData: Removing '/Game/Blueprints/Actors/LEvelTriggers/BP_DamageVolume.BP_DamageVolume:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Blueprints/Actors/LEvelTriggers/BP_LevelRestartTrigger.PackageMetaData'
-[2023.04.25-16.11.02:279][943]LogMetaData: Removing '/Game/Blueprints/Actors/LEvelTriggers/BP_DamageVolume.BP_DamageVolume:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Blueprints/Actors/LEvelTriggers/BP_LevelRestartTrigger.PackageMetaData'
-[2023.04.25-16.11.02:279][943]LogMetaData: Removing '/Game/Blueprints/Actors/LEvelTriggers/BP_DamageVolume.SKEL_BP_DamageVolume_C' ref from Metadata '/Game/Blueprints/Actors/LEvelTriggers/BP_LevelRestartTrigger.PackageMetaData'
-[2023.04.25-16.11.02:301][943]LogSavePackage: Moving '../../../../../../GameDev/CrystalCavern/Saved/BP_DamageVolume5904CB024E9DC0D1C430CABFD686BE90.tmp' to '../../../../../../GameDev/CrystalCavern/Content/Blueprints/Actors/LEvelTriggers/BP_DamageVolume.uasset'
-[2023.04.25-16.11.02:313][943]LogSavePackage: Moving '../../../../../../GameDev/CrystalCavern/Saved/BP_LevelRestartTriggerF08AECA147C10A9D9AAFDA8859348E83.tmp' to '../../../../../../GameDev/CrystalCavern/Content/Blueprints/Actors/LEvelTriggers/BP_LevelRestartTrigger.uasset'
-[2023.04.25-16.11.07:356][536]LogMetaData: Removing '/Game/Blueprints/Actors/Volumes/BP_DamageVolume.BP_DamageVolume_C' ref from Metadata '/Game/Blueprints/Actors/LEvelTriggers/BP_DamageVolume.PackageMetaData'
-[2023.04.25-16.11.07:356][536]LogMetaData: Removing '/Game/Blueprints/Actors/Volumes/BP_DamageVolume.SKEL_BP_DamageVolume_C' ref from Metadata '/Game/Blueprints/Actors/LEvelTriggers/BP_DamageVolume.PackageMetaData'
-[2023.04.25-16.11.07:356][536]LogMetaData: Removing '/Game/Blueprints/Actors/Volumes/BP_DamageVolume.BP_DamageVolume:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Blueprints/Actors/LEvelTriggers/BP_DamageVolume.PackageMetaData'
-[2023.04.25-16.11.07:356][536]LogMetaData: Removing '/Game/Blueprints/Actors/Volumes/BP_DamageVolume.BP_DamageVolume:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Blueprints/Actors/LEvelTriggers/BP_DamageVolume.PackageMetaData'
-[2023.04.25-16.11.07:357][536]LogMetaData: Removing '/Game/Blueprints/Actors/Volumes/BP_DamageVolume.BP_DamageVolume:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Blueprints/Actors/LEvelTriggers/BP_DamageVolume.PackageMetaData'
-[2023.04.25-16.11.07:357][536]LogMetaData: Removing '/Game/Blueprints/Actors/Volumes/BP_DamageVolume.BP_DamageVolume:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/Actors/LEvelTriggers/BP_DamageVolume.PackageMetaData'
-[2023.04.25-16.11.07:357][536]LogMetaData: Removing '/Game/Blueprints/Actors/Volumes/BP_DamageVolume.SKEL_BP_DamageVolume_C:ReceiveBeginPlay' ref from Metadata '/Game/Blueprints/Actors/LEvelTriggers/BP_DamageVolume.PackageMetaData'
-[2023.04.25-16.11.07:357][536]LogMetaData: Removing '/Game/Blueprints/Actors/Volumes/BP_DamageVolume.SKEL_BP_DamageVolume_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/Blueprints/Actors/LEvelTriggers/BP_DamageVolume.PackageMetaData'
-[2023.04.25-16.11.07:357][536]LogMetaData: Removing '/Game/Blueprints/Actors/Volumes/BP_DamageVolume.SKEL_BP_DamageVolume_C:ReceiveTick' ref from Metadata '/Game/Blueprints/Actors/LEvelTriggers/BP_DamageVolume.PackageMetaData'
-[2023.04.25-16.11.07:357][536]LogMetaData: Removing '/Game/Blueprints/Actors/Volumes/BP_DamageVolume.SKEL_BP_DamageVolume_C:BndEvt__Trigger_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature' ref from Metadata '/Game/Blueprints/Actors/LEvelTriggers/BP_DamageVolume.PackageMetaData'
-[2023.04.25-16.11.07:357][536]LogMetaData: Removing '/Game/Blueprints/Actors/Volumes/BP_DamageVolume.SKEL_BP_DamageVolume_C:DefaultSceneRoot' ref from Metadata '/Game/Blueprints/Actors/LEvelTriggers/BP_DamageVolume.PackageMetaData'
-[2023.04.25-16.11.07:357][536]LogMetaData: Removing '/Game/Blueprints/Actors/Volumes/BP_DamageVolume.SKEL_BP_DamageVolume_C:Trigger' ref from Metadata '/Game/Blueprints/Actors/LEvelTriggers/BP_DamageVolume.PackageMetaData'
-[2023.04.25-16.11.07:357][536]LogMetaData: Removing '/Game/Blueprints/Actors/Volumes/BP_DamageVolume.SKEL_BP_DamageVolume_C:UserConstructionScript' ref from Metadata '/Game/Blueprints/Actors/LEvelTriggers/BP_DamageVolume.PackageMetaData'
-[2023.04.25-16.11.07:357][536]LogMetaData: Removing '/Game/Blueprints/Actors/Volumes/BP_DamageVolume.BP_DamageVolume_C:DefaultSceneRoot' ref from Metadata '/Game/Blueprints/Actors/LEvelTriggers/BP_DamageVolume.PackageMetaData'
-[2023.04.25-16.11.07:357][536]LogMetaData: Removing '/Game/Blueprints/Actors/Volumes/BP_DamageVolume.BP_DamageVolume_C:Trigger' ref from Metadata '/Game/Blueprints/Actors/LEvelTriggers/BP_DamageVolume.PackageMetaData'
-[2023.04.25-16.11.07:357][536]LogMetaData: Removing '/Game/Blueprints/Actors/Volumes/BP_DamageVolume.BP_DamageVolume_C:UserConstructionScript' ref from Metadata '/Game/Blueprints/Actors/LEvelTriggers/BP_DamageVolume.PackageMetaData'
-[2023.04.25-16.11.07:377][536]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Actors/Volumes/BP_DamageVolume" FILE="../../../../../../GameDev/CrystalCavern/Content/Blueprints/Actors/Volumes/BP_DamageVolume.uasset" SILENT=true
-[2023.04.25-16.11.07:385][536]LogSavePackage: Moving '../../../../../../GameDev/CrystalCavern/Saved/BP_DamageVolumeBD26194C4AC2972ABBF3CDB53E557846.tmp' to '../../../../../../GameDev/CrystalCavern/Content/Blueprints/Actors/Volumes/BP_DamageVolume.uasset'
-[2023.04.25-16.11.07:389][536]LogSavePackage: Moving '../../../../../../GameDev/CrystalCavern/Saved/BP_LevelRestartTrigger1FD1B9984C5EF68CF0A31897F5E13E6E.tmp' to '../../../../../../GameDev/CrystalCavern/Content/Blueprints/Actors/Volumes/BP_LevelRestartTrigger.uasset'
-[2023.04.25-16.11.07:399][536]LogSavePackage: Moving '../../../../../../GameDev/CrystalCavern/Saved/BP_LevelRestartTriggerCDFF1C8A4651845D6C5805A5D250B140.tmp' to '../../../../../../GameDev/CrystalCavern/Content/Blueprints/Actors/LEvelTriggers/BP_LevelRestartTrigger.uasset'
-[2023.04.25-16.11.07:403][536]LogSavePackage: Moving '../../../../../../GameDev/CrystalCavern/Saved/BP_LevelRestartTrigger_C68EF8E5448C3B8AB1B2A8181FA71EA35.tmp' to '../../../../../../GameDev/CrystalCavern/Content/Blueprints/Actors/Volumes/BP_LevelRestartTrigger_C.uasset'
-[2023.04.25-16.11.57:493][134]LogTemp: Repeating last play command: Selected Viewport
-[2023.04.25-16.11.57:506][134]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
-[2023.04.25-16.11.57:506][134]BlueprintLog: New page: Pre-Play auto-recompile
-[2023.04.25-16.11.57:509][134]LogPlayLevel: [PlayLevel] Compiling BP_Projectiles before play...
-[2023.04.25-16.11.57:604][134]LogPlayLevel: PlayLevel: Blueprint regeneration took 97 ms (1 blueprints)
-[2023.04.25-16.11.57:605][134]PIE: New page: PIE session: Level1 (Apr 25, 2023, 8:11:57 AM)
-[2023.04.25-16.11.57:605][134]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
-[2023.04.25-16.11.57:608][134]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002975s)
-[2023.04.25-16.11.57:608][134]LogAIModule: Creating AISystem for world Level1
-[2023.04.25-16.11.57:608][134]LogPlayLevel: PIE: World Init took: (0.000426s)
-[2023.04.25-16.11.57:608][134]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.003469s)
-[2023.04.25-16.11.57:637][134]LogInit: XAudio2 using '32S321 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2023.04.25-16.11.57:645][134]LogInit: FAudioDevice initialized.
-[2023.04.25-16.11.57:652][134]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2023.04.25-16.11.57:683][134]LogLoad: Game class is 'B_GameMode_C'
-[2023.04.25-16.11.57:684][134]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2023.04.25-12.11.57
-[2023.04.25-16.11.57:684][134]LogWorld: Bringing up level for play took: 0.000834
-[2023.04.25-16.11.57:697][134]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level1 1.148
-[2023.04.25-16.11.57:697][134]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
-[2023.04.25-16.12.05:309][ 26]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
-[2023.04.25-16.12.05:309][ 26]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2023.04.25-16.12.05:317][ 26]LogSlate: Window 'CrystalCavern Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2023.04.25-16.12.05:352][ 26]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2023.04.25-16.12.05:352][ 26]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
-[2023.04.25-16.12.05:416][ 31]LogPlayLevel: Display: Destroying online subsystem :Context_13
-[2023.04.25-16.12.33:231][364]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
-[2023.04.25-16.12.33:231][364]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
-[2023.04.25-16.12.33:231][364]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
-[2023.04.25-16.12.34:744][545]LogTemp: Repeating last play command: Selected Viewport
-[2023.04.25-16.12.34:753][545]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
-[2023.04.25-16.12.34:753][545]BlueprintLog: New page: Pre-Play auto-recompile
-[2023.04.25-16.12.34:755][545]LogPlayLevel: [PlayLevel] Compiling BP_Projectiles before play...
-[2023.04.25-16.12.34:848][545]LogPlayLevel: PlayLevel: Blueprint regeneration took 95 ms (1 blueprints)
-[2023.04.25-16.12.34:848][545]PIE: New page: PIE session: Level1 (Apr 25, 2023, 8:12:34 AM)
-[2023.04.25-16.12.34:848][545]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
-[2023.04.25-16.12.34:851][545]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002989s)
-[2023.04.25-16.12.34:852][545]LogAIModule: Creating AISystem for world Level1
-[2023.04.25-16.12.34:852][545]LogPlayLevel: PIE: World Init took: (0.000435s)
-[2023.04.25-16.12.34:852][545]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.003496s)
-[2023.04.25-16.12.34:880][545]LogInit: XAudio2 using '32S321 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2023.04.25-16.12.34:886][545]LogInit: FAudioDevice initialized.
-[2023.04.25-16.12.34:892][545]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2023.04.25-16.12.34:924][545]LogLoad: Game class is 'B_GameMode_C'
-[2023.04.25-16.12.34:925][545]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2023.04.25-12.12.34
-[2023.04.25-16.12.34:925][545]LogWorld: Bringing up level for play took: 0.000890
-[2023.04.25-16.12.34:937][545]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level1 0.389
-[2023.04.25-16.12.34:937][545]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
-[2023.04.25-16.12.41:391][311]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
-[2023.04.25-16.12.41:392][311]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2023.04.25-16.12.41:399][311]LogSlate: Window 'CrystalCavern Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2023.04.25-16.12.41:431][311]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2023.04.25-16.12.41:431][311]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
-[2023.04.25-16.12.41:491][315]LogPlayLevel: Display: Destroying online subsystem :Context_14
-[2023.04.25-16.12.47:940][ 88]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
-[2023.04.25-16.12.47:940][ 88]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
-[2023.04.25-16.12.47:940][ 88]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
-[2023.04.25-16.12.47:940][ 88]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
-[2023.04.25-16.12.50:304][371]LogTemp: Repeating last play command: Selected Viewport
-[2023.04.25-16.12.50:312][371]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
-[2023.04.25-16.12.50:312][371]BlueprintLog: New page: Pre-Play auto-recompile
-[2023.04.25-16.12.50:315][371]LogPlayLevel: [PlayLevel] Compiling BP_Projectiles before play...
-[2023.04.25-16.12.50:408][371]LogPlayLevel: PlayLevel: Blueprint regeneration took 96 ms (1 blueprints)
-[2023.04.25-16.12.50:408][371]PIE: New page: PIE session: Level1 (Apr 25, 2023, 8:12:50 AM)
-[2023.04.25-16.12.50:408][371]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
-[2023.04.25-16.12.50:411][371]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002898s)
-[2023.04.25-16.12.50:412][371]LogAIModule: Creating AISystem for world Level1
-[2023.04.25-16.12.50:412][371]LogPlayLevel: PIE: World Init took: (0.000440s)
-[2023.04.25-16.12.50:412][371]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.003405s)
-[2023.04.25-16.12.50:439][371]LogInit: XAudio2 using '32S321 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2023.04.25-16.12.50:446][371]LogInit: FAudioDevice initialized.
-[2023.04.25-16.12.50:453][371]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2023.04.25-16.12.50:485][371]LogLoad: Game class is 'B_GameMode_C'
-[2023.04.25-16.12.50:486][371]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2023.04.25-12.12.50
-[2023.04.25-16.12.50:487][371]LogWorld: Bringing up level for play took: 0.000821
-[2023.04.25-16.12.50:499][371]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level1 -0.049
-[2023.04.25-16.12.50:499][371]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
-[2023.04.25-16.12.55:293][938]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
-[2023.04.25-16.12.55:294][938]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2023.04.25-16.12.55:302][938]LogSlate: Window 'CrystalCavern Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2023.04.25-16.12.55:336][938]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2023.04.25-16.12.55:336][938]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
-[2023.04.25-16.12.55:395][942]LogPlayLevel: Display: Destroying online subsystem :Context_15
-[2023.04.25-16.13.03:075][862]LogTemp: Repeating last play command: Selected Viewport
-[2023.04.25-16.13.03:085][862]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
-[2023.04.25-16.13.03:085][862]BlueprintLog: New page: Pre-Play auto-recompile
-[2023.04.25-16.13.03:088][862]LogPlayLevel: [PlayLevel] Compiling BP_Projectiles before play...
-[2023.04.25-16.13.03:189][862]LogPlayLevel: PlayLevel: Blueprint regeneration took 104 ms (1 blueprints)
-[2023.04.25-16.13.03:189][862]PIE: New page: PIE session: Level1 (Apr 25, 2023, 8:13:03 AM)
-[2023.04.25-16.13.03:189][862]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
-[2023.04.25-16.13.03:192][862]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002925s)
-[2023.04.25-16.13.03:193][862]LogAIModule: Creating AISystem for world Level1
-[2023.04.25-16.13.03:193][862]LogPlayLevel: PIE: World Init took: (0.000422s)
-[2023.04.25-16.13.03:193][862]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.003414s)
-[2023.04.25-16.13.03:221][862]LogInit: XAudio2 using '32S321 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2023.04.25-16.13.03:228][862]LogInit: FAudioDevice initialized.
-[2023.04.25-16.13.03:234][862]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2023.04.25-16.13.03:262][862]LogLoad: Game class is 'B_GameMode_C'
-[2023.04.25-16.13.03:263][862]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2023.04.25-12.13.03
-[2023.04.25-16.13.03:263][862]LogWorld: Bringing up level for play took: 0.000837
-[2023.04.25-16.13.03:275][862]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level1 0.727
-[2023.04.25-16.13.03:275][862]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
-[2023.04.25-16.13.06:593][251]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
-[2023.04.25-16.13.06:594][251]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2023.04.25-16.13.06:601][251]LogSlate: Window 'CrystalCavern Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2023.04.25-16.13.06:630][251]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2023.04.25-16.13.06:630][251]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
-[2023.04.25-16.13.06:697][256]LogPlayLevel: Display: Destroying online subsystem :Context_16
-[2023.04.25-16.13.09:426][583]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
-[2023.04.25-16.13.09:426][583]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
-[2023.04.25-16.13.09:426][583]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
-[2023.04.25-16.13.09:426][583]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
-[2023.04.25-16.13.09:426][583]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
-[2023.04.25-16.13.09:426][583]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
-[2023.04.25-16.13.09:429][583]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
-[2023.04.25-16.13.09:429][583]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
-[2023.04.25-16.13.09:429][583]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
-[2023.04.25-16.13.09:429][583]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
-[2023.04.25-16.13.09:429][583]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
-[2023.04.25-16.13.09:429][583]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
-[2023.04.25-16.13.48:599][247]LogTemp: Repeating last play command: Selected Viewport
-[2023.04.25-16.13.48:608][247]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
-[2023.04.25-16.13.48:608][247]BlueprintLog: New page: Pre-Play auto-recompile
-[2023.04.25-16.13.48:610][247]LogPlayLevel: [PlayLevel] Compiling BP_Projectiles before play...
-[2023.04.25-16.13.48:707][247]LogPlayLevel: PlayLevel: Blueprint regeneration took 99 ms (1 blueprints)
-[2023.04.25-16.13.48:708][247]PIE: New page: PIE session: Level1 (Apr 25, 2023, 8:13:48 AM)
-[2023.04.25-16.13.48:708][247]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
-[2023.04.25-16.13.48:711][247]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003148s)
-[2023.04.25-16.13.48:711][247]LogAIModule: Creating AISystem for world Level1
-[2023.04.25-16.13.48:711][247]LogPlayLevel: PIE: World Init took: (0.000431s)
-[2023.04.25-16.13.48:711][247]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.003646s)
-[2023.04.25-16.13.48:740][247]LogInit: XAudio2 using '32S321 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2023.04.25-16.13.48:747][247]LogInit: FAudioDevice initialized.
-[2023.04.25-16.13.48:754][247]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2023.04.25-16.13.48:787][247]LogLoad: Game class is 'B_GameMode_C'
-[2023.04.25-16.13.48:788][247]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2023.04.25-12.13.48
-[2023.04.25-16.13.48:788][247]LogWorld: Bringing up level for play took: 0.000837
-[2023.04.25-16.13.48:800][247]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level1 0.251
-[2023.04.25-16.13.48:800][247]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
-[2023.04.25-16.13.53:613][815]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
-[2023.04.25-16.13.53:614][815]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2023.04.25-16.13.53:621][815]LogSlate: Window 'CrystalCavern Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2023.04.25-16.13.53:657][815]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2023.04.25-16.13.53:657][815]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
-[2023.04.25-16.13.53:716][819]LogPlayLevel: Display: Destroying online subsystem :Context_17
-[2023.04.25-16.13.59:730][538]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
-[2023.04.25-16.13.59:730][538]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
-[2023.04.25-16.13.59:730][538]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
-[2023.04.25-16.13.59:730][538]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
-[2023.04.25-16.13.59:730][538]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
-[2023.04.25-16.13.59:730][538]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
-[2023.04.25-16.13.59:730][538]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
-[2023.04.25-16.13.59:733][538]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
-[2023.04.25-16.13.59:733][538]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
-[2023.04.25-16.13.59:733][538]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
-[2023.04.25-16.13.59:733][538]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
-[2023.04.25-16.13.59:733][538]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
-[2023.04.25-16.13.59:733][538]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
-[2023.04.25-16.13.59:733][538]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
-[2023.04.25-16.15.50:672][833]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2023.04.25-16.15.55:224][379]LogTemp: Repeating last play command: Selected Viewport
-[2023.04.25-16.15.55:232][379]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
-[2023.04.25-16.15.55:233][379]BlueprintLog: New page: Pre-Play auto-recompile
-[2023.04.25-16.15.55:235][379]LogPlayLevel: [PlayLevel] Compiling BP_Projectiles before play...
-[2023.04.25-16.15.55:316][379]LogPlayLevel: [PlayLevel] Compiling BP_PlayerPawn before play...
-[2023.04.25-16.15.55:416][379]LogPlayLevel: PlayLevel: Blueprint regeneration took 183 ms (2 blueprints)
-[2023.04.25-16.15.55:416][379]PIE: New page: PIE session: Level1 (Apr 25, 2023, 8:15:55 AM)
-[2023.04.25-16.15.55:416][379]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
-[2023.04.25-16.15.55:419][379]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002829s)
-[2023.04.25-16.15.55:419][379]LogAIModule: Creating AISystem for world Level1
-[2023.04.25-16.15.55:419][379]LogPlayLevel: PIE: World Init took: (0.000426s)
-[2023.04.25-16.15.55:419][379]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.003322s)
-[2023.04.25-16.15.55:447][379]LogInit: XAudio2 using '32S321 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2023.04.25-16.15.55:454][379]LogInit: FAudioDevice initialized.
-[2023.04.25-16.15.55:461][379]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2023.04.25-16.15.55:492][379]LogLoad: Game class is 'B_GameMode_C'
-[2023.04.25-16.15.55:494][379]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2023.04.25-12.15.55
-[2023.04.25-16.15.55:494][379]LogWorld: Bringing up level for play took: 0.001425
-[2023.04.25-16.15.55:507][379]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level1 0.959
-[2023.04.25-16.15.55:508][379]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
-[2023.04.25-16.16.00:390][956]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
-[2023.04.25-16.16.00:390][956]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2023.04.25-16.16.00:398][956]LogSlate: Window 'CrystalCavern Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2023.04.25-16.16.00:427][956]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2023.04.25-16.16.00:427][956]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
-[2023.04.25-16.16.00:490][961]LogPlayLevel: Display: Destroying online subsystem :Context_18
-[2023.04.25-16.16.30:255][348]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1" FILE="../../../../../../GameDev/CrystalCavern/Saved/Autosaves/Game/Levels/Level1_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
-[2023.04.25-16.16.30:364][348]LogSavePackage: Moving '../../../../../../GameDev/CrystalCavern/Saved/Level1_Auto199C8B51D496F479E67D8F38EB3A621A6.tmp' to '../../../../../../GameDev/CrystalCavern/Saved/Autosaves/Game/Levels/Level1_Auto1.umap'
-[2023.04.25-16.16.30:366][348]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Level1' took 0.132
-[2023.04.25-16.16.30:366][348]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.132
-[2023.04.25-16.16.30:368][348]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Actors/Projectiles/BP_Projectiles] ([1] browsable assets)...
-[2023.04.25-16.16.30:390][348]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Actors/Projectiles/BP_Projectiles.BP_Projectiles]
-[2023.04.25-16.16.30:390][348]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Actors/Projectiles/BP_Projectiles]
-[2023.04.25-16.16.30:409][348]LogSavePackage: Moving '../../../../../../GameDev/CrystalCavern/Saved/BP_Projectiles_Auto1736BB03B4BDDF0A62EECEAB095D3798E.tmp' to '../../../../../../GameDev/CrystalCavern/Saved/Autosaves/Game/Blueprints/Actors/Projectiles/BP_Projectiles_Auto1.uasset'
-[2023.04.25-16.16.30:410][348]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Actors/Player/BP_PlayerPawn] ([1] browsable assets)...
-[2023.04.25-16.16.30:424][348]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Actors/Player/BP_PlayerPawn.BP_PlayerPawn]
-[2023.04.25-16.16.30:424][348]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Actors/Player/BP_PlayerPawn]
-[2023.04.25-16.16.30:450][348]LogSavePackage: Moving '../../../../../../GameDev/CrystalCavern/Saved/BP_PlayerPawn_Auto1FE903124495877A5E5CD71995FD4FCB4.tmp' to '../../../../../../GameDev/CrystalCavern/Saved/Autosaves/Game/Blueprints/Actors/Player/BP_PlayerPawn_Auto1.uasset'
-[2023.04.25-16.16.30:451][348]LogFileHelpers: Auto-saving content packages took 0.083
+[2023.04.25-16.33.08:866][  0]LogInit: Selected Device Profile: [Windows]
+[2023.04.25-16.33.08:866][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2023.04.25-16.33.08:876][  0]LogHAL: Display: Platform has ~ 32 GB [34273423360 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2023.04.25-16.33.08:876][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2023.04.25-16.33.08:876][  0]LogInit: Going up to parent DeviceProfile []
+[2023.04.25-16.33.08:876][  0]LogInit: Computer: DESKTOP-U1RK44O
+[2023.04.25-16.33.08:876][  0]LogInit: User: dcalt
+[2023.04.25-16.33.08:876][  0]LogInit: CPU Page size=4096, Cores=6
+[2023.04.25-16.33.08:876][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2023.04.25-16.33.08:876][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2023.04.25-16.33.08:876][  0]LogMemory: Platform Memory Stats for Windows
+[2023.04.25-16.33.08:877][  0]LogMemory: Process Physical Memory: 102.91 MB used, 102.91 MB peak
+[2023.04.25-16.33.08:877][  0]LogMemory: Process Virtual Memory: 86.23 MB used, 86.23 MB peak
+[2023.04.25-16.33.08:877][  0]LogMemory: Physical Memory: 10382.55 MB used,  22303.13 MB free, 32685.68 MB total
+[2023.04.25-16.33.08:877][  0]LogMemory: Virtual Memory: 4641.40 MB used,  22303.13 MB free, 134217728.00 MB total
+[2023.04.25-16.33.08:899][  0]LogInit: Using OS detected language (en-US).
+[2023.04.25-16.33.08:899][  0]LogInit: Using OS detected locale (en-US).
+[2023.04.25-16.33.08:899][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2023.04.25-16.33.09:148][  0]LogStreaming: Display: Took  0.249s to InitEngineTextLocalization.
+[2023.04.25-16.33.09:148][  0]LogInit: Setting process to per monitor DPI aware
+[2023.04.25-16.33.09:169][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2023.04.25-16.33.09:169][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2023.04.25-16.33.09:317][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2023.04.25-16.33.09:317][  0]LogD3D11RHI: D3D11 adapters:
+[2023.04.25-16.33.09:420][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 3060' (Feature Level 11_0)
+[2023.04.25-16.33.09:420][  0]LogD3D11RHI:       12129/0/16342 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2023.04.25-16.33.09:421][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2023.04.25-16.33.09:421][  0]LogD3D11RHI:       0/0/16342 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2023.04.25-16.33.09:421][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2023.04.25-16.33.09:426][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2023.04.25-16.33.09:426][  0]LogD3D11RHI:     GPU DeviceId: 0x2504 (for the marketing name, search the web for "GPU Device Id")
+[2023.04.25-16.33.09:426][  0]LogWindows: EnumDisplayDevices:
+[2023.04.25-16.33.09:426][  0]LogWindows:    0. 'NVIDIA GeForce RTX 3060' (P:1 D:1)
+[2023.04.25-16.33.09:426][  0]LogWindows:    1. 'NVIDIA GeForce RTX 3060' (P:0 D:1)
+[2023.04.25-16.33.09:426][  0]LogWindows:    2. 'NVIDIA GeForce RTX 3060' (P:0 D:0)
+[2023.04.25-16.33.09:427][  0]LogWindows:    3. 'NVIDIA GeForce RTX 3060' (P:0 D:0)
+[2023.04.25-16.33.09:427][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2023.04.25-16.33.09:427][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 3060
+[2023.04.25-16.33.09:427][  0]LogD3D11RHI:   Driver Version: 526.98 (internal:31.0.15.2698, unified:526.98)
+[2023.04.25-16.33.09:427][  0]LogD3D11RHI:      Driver Date: 11-13-2022
+[2023.04.25-16.33.09:427][  0]LogRHI: Texture pool is 8490 MB (70% of 12129 MB)
+[2023.04.25-16.33.09:491][  0]LogD3D11RHI: Async texture creation enabled
+[2023.04.25-16.33.09:510][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2023.04.25-16.33.09:512][  0]LogShaderCompilers: Guid format shader working directory is 6 characters bigger than the processId version (../../../../../../GameDev/CrystalCavern/Intermediate/Shaders/WorkingDirectory/18724/).
+[2023.04.25-16.33.09:512][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/dcalt/AppData/Local/Temp/UnrealShaderWorkingDir/237C7A5B4C7E5187D1069D82B1349EF8/'.
+[2023.04.25-16.33.09:701][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2023.04.25-16.33.09:714][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2023.04.25-16.33.09:723][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2023.04.25-16.33.09:733][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2023.04.25-16.33.09:743][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2023.04.25-16.33.09:751][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2023.04.25-16.33.09:759][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2023.04.25-16.33.09:768][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2023.04.25-16.33.09:772][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2023.04.25-16.33.09:820][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2023.04.25-16.33.09:820][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2023.04.25-16.33.09:820][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2023.04.25-16.33.09:820][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2023.04.25-16.33.09:820][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2023.04.25-16.33.09:820][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2023.04.25-16.33.09:820][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2023.04.25-16.33.09:820][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2023.04.25-16.33.09:820][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2023.04.25-16.33.09:820][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2023.04.25-16.33.09:820][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2023.04.25-16.33.09:820][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2023.04.25-16.33.09:820][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2023.04.25-16.33.09:820][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2023.04.25-16.33.09:820][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2023.04.25-16.33.09:820][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2023.04.25-16.33.09:820][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2023.04.25-16.33.09:820][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2023.04.25-16.33.09:821][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2023.04.25-16.33.09:871][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2023.04.25-16.33.09:871][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2023.04.25-16.33.09:886][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2023.04.25-16.33.09:886][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2023.04.25-16.33.09:893][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2023.04.25-16.33.09:901][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2023.04.25-16.33.09:908][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2023.04.25-16.33.09:916][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2023.04.25-16.33.09:922][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2023.04.25-16.33.09:922][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2023.04.25-16.33.09:958][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2023.04.25-16.33.09:958][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2023.04.25-16.33.09:958][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2023.04.25-16.33.10:511][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2023.04.25-16.33.10:545][  0]LogDerivedDataCache: Loaded boot cache 0.03s 71MB C:/Users/dcalt/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2023.04.25-16.33.10:545][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/dcalt/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2023.04.25-16.33.10:545][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../GameDev/CrystalCavern/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2023.04.25-16.33.10:545][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2023.04.25-16.33.10:545][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../GameDev/CrystalCavern/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2023.04.25-16.33.10:545][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2023.04.25-16.33.10:555][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2023.04.25-16.33.10:567][  0]LogDerivedDataCache: Using Local data cache path C:/Users/dcalt/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2023.04.25-16.33.10:567][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2023.04.25-16.33.10:567][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2023.04.25-16.33.10:578][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2023.04.25-16.33.10:579][  0]LogSlate: Using FreeType 2.6.0
+[2023.04.25-16.33.10:580][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2023.04.25-16.33.10:637][  0]LogAssetRegistry: FAssetRegistry took 0.0248 seconds to start up
+[2023.04.25-16.33.10:838][  0]LogInit: Selected Device Profile: [Windows]
+[2023.04.25-16.33.10:917][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2023.04.25-16.33.10:919][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2023.04.25-16.33.10:919][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2023.04.25-16.33.10:919][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2023.04.25-16.33.10:919][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2023.04.25-16.33.10:930][  0]LogNetVersion: CrystalCavern 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1954901415)
+[2023.04.25-16.33.11:232][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.050391 seconds
+[2023.04.25-16.33.11:235][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2023.04.25-16.33.11:235][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2023.04.25-16.33.11:235][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2023.04.25-16.33.11:791][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2023.04.25-16.33.11:802][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2023.04.25-16.33.11:915][  0]SourceControl: Source control is disabled
+[2023.04.25-16.33.11:915][  0]SourceControl: Source control is disabled
+[2023.04.25-16.33.11:916][  0]SourceControl: Source control is disabled
+[2023.04.25-16.33.11:917][  0]SourceControl: Source control is disabled
+[2023.04.25-16.33.12:045][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2023.04.25-16.33.12:080][  0]LogOcInput: OculusInput pre-init called
+[2023.04.25-16.33.12:119][  0]LogEngine: Initializing Engine...
+[2023.04.25-16.33.12:120][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2023.04.25-16.33.12:121][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2023.04.25-16.33.12:121][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2023.04.25-16.33.12:121][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2023.04.25-16.33.12:121][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2023.04.25-16.33.12:248][  0]LogInit: Initializing FReadOnlyCVARCache
+[2023.04.25-16.33.12:257][  0]LogAIModule: Creating AISystem for world Untitled
+[2023.04.25-16.33.12:268][  0]LogInit: XAudio2 using '32S321 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2023.04.25-16.33.12:291][  0]LogInit: FAudioDevice initialized.
+[2023.04.25-16.33.12:291][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2023.04.25-16.33.12:320][  0]LogDerivedDataCache: Saved boot cache 0.03s 71MB C:/Users/dcalt/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2023.04.25-16.33.12:322][  0]LogInit: Texture streaming: Enabled
+[2023.04.25-16.33.12:333][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2023.04.25-16.33.12:341][  0]LogInit: Transaction tracking system initialized
+[2023.04.25-16.33.12:353][  0]BlueprintLog: New page: Editor Load
+[2023.04.25-16.33.12:395][  0]LocalizationService: Localization service is disabled
+[2023.04.25-16.33.12:559][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2023.04.25-16.33.12:559][  0]LogCook: Display: Mobile HDR setting 1
+[2023.04.25-16.33.12:559][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2023.04.25-16.33.12:559][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2023.04.25-16.33.12:559][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2023.04.25-16.33.12:559][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2023.04.25-16.33.12:559][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2023.04.25-16.33.12:623][  0]LogFileCache: Scanning file cache for directory 'C:/GameDev/CrystalCavern/Content/' took 0.02s
+[2023.04.25-16.33.12:623][  0]SourceControl: Source control is disabled
+[2023.04.25-16.33.12:623][  0]Cmd: MAP LOAD FILE="../../../../../../GameDev/CrystalCavern/Content/Levels/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2023.04.25-16.33.12:624][  0]LightingResults: New page: Lighting Build
+[2023.04.25-16.33.12:625][  0]MapCheck: New page: Map Check
+[2023.04.25-16.33.12:625][  0]LightingResults: New page: Lighting Build
+[2023.04.25-16.33.12:808][  0]LogAIModule: Creating AISystem for world Level1
+[2023.04.25-16.33.12:817][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.04.25-16.33.12:835][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.04.25-16.33.12:896][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 60.924ms to complete.
+[2023.04.25-16.33.12:896][  0]LogFileHelpers: Loading map 'Level1' took 0.273
+[2023.04.25-16.33.12:989][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.25-16.33.12:995][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.25-16.33.13:000][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.25-16.33.13:004][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.25-16.33.13:008][  0]LogCollectionManager: Loaded 0 collections in 0.000908 seconds
+[2023.04.25-16.33.13:046][  0]LogFileCache: Scanning file cache for directory 'C:/GameDev/CrystalCavern/Saved/Collections/' took 0.01s
+[2023.04.25-16.33.13:046][  0]LogFileCache: Scanning file cache for directory 'C:/GameDev/CrystalCavern/Content/Developers/dcalt/Collections/' took 0.01s
+[2023.04.25-16.33.13:046][  0]LogFileCache: Scanning file cache for directory 'C:/GameDev/CrystalCavern/Content/Collections/' took 0.01s
+[2023.04.25-16.33.13:046][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2023.04.25-16.33.13:052][  0]LogContentBrowser: Native class hierarchy populated in 0.0062 seconds. Added 2572 classes and 603 folders.
+[2023.04.25-16.33.13:055][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0001 seconds. Added 0 classes and 0 folders.
+[2023.04.25-16.33.13:220][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2023.04.25-16.33.13:223][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2023.04.25-16.33.13:268][  0]LogSlate: Took 0.000155 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2023.04.25-16.33.13:269][  0]LogSlate: Took 0.000107 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2023.04.25-16.33.13:275][  0]LogSlate: Took 0.003740 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2023.04.25-16.33.13:313][  0]LogRenderer: Reallocating scene render targets to support 1564x696 Format 10 NumSamples 1 (Frame:1).
+[2023.04.25-16.33.13:421][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2023.04.25-16.33.13:421][  0]LogLoad: (Engine Initialization) Total time: 6.35 seconds
+[2023.04.25-16.33.13:421][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2023.04.25-16.33.13:444][  0]LogAssetRegistry: Asset discovery search completed in 2.8294 seconds
+[2023.04.25-16.33.13:445][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2023.04.25-16.33.13:445][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000025 seconds (updated 0 objects)
+[2023.04.25-16.33.13:446][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2023.04.25-16.33.13:468][  0]LogSlate: Took 0.003649 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.04.25-16.33.14:436][111]LogSlate: Took 0.000146 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.04.25-16.36.26:733][186]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2023.04.25-16.36.26:865][199]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Actors/Player/BP_PlayerPawn.BP_PlayerPawn
+[2023.04.25-16.36.27:109][199]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0004 seconds. Added 116 classes and 0 folders.
+[2023.04.25-16.36.27:559][199]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Actors/Volumes/BP_DamageVolume.BP_DamageVolume
+[2023.04.25-16.36.27:740][199]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Actors/Projectiles/BP_Projectiles.BP_Projectiles
+[2023.04.25-16.36.27:926][199]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Actors/Volumes/BP_WinVolume.BP_WinVolume
+[2023.04.25-16.36.28:103][199]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Actors/Collectables/BP_Crystal.BP_Crystal
+[2023.04.25-16.36.28:290][199]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Libraries/CC_MacroLibrary.CC_MacroLibrary
+[2023.04.25-16.36.28:493][199]LogSlate: Took 0.003609 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2023.04.25-16.36.28:544][200]LogSlate: Took 0.003479 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2023.04.25-16.36.39:458][503]LogSlate: Window 'CC_MacroLibrary' being destroyed
+[2023.04.25-16.40.00:994][344]LogTemp: Repeating last play command: Selected Viewport
+[2023.04.25-16.40.01:005][344]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2023.04.25-16.40.01:005][344]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.04.25-16.40.01:010][344]LogPlayLevel: [PlayLevel] Compiling BP_Crystal before play...
+[2023.04.25-16.40.01:134][344]LogPlayLevel: PlayLevel: Blueprint regeneration took 128 ms (1 blueprints)
+[2023.04.25-16.40.01:146][344]PIE: New page: PIE session: Level1 (Apr 25, 2023, 8:40:01 AM)
+[2023.04.25-16.40.01:146][344]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2023.04.25-16.40.01:149][344]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003006s)
+[2023.04.25-16.40.01:149][344]LogAIModule: Creating AISystem for world Level1
+[2023.04.25-16.40.01:150][344]LogPlayLevel: PIE: World Init took: (0.000450s)
+[2023.04.25-16.40.01:150][344]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.003536s)
+[2023.04.25-16.40.01:179][344]LogInit: XAudio2 using '32S321 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2023.04.25-16.40.01:187][344]LogInit: FAudioDevice initialized.
+[2023.04.25-16.40.01:194][344]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.25-16.40.01:238][344]LogLoad: Game class is 'B_GameMode_C'
+[2023.04.25-16.40.01:239][344]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2023.04.25-12.40.01
+[2023.04.25-16.40.01:239][344]LogWorld: Bringing up level for play took: 0.000913
+[2023.04.25-16.40.01:256][344]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0002 seconds. Added 10 classes and 0 folders.
+[2023.04.25-16.40.01:258][344]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level1 0.709
+[2023.04.25-16.40.01:258][344]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2023.04.25-16.40.01:280][344]LogRenderer: Reallocating scene render targets to support 1564x756 Format 10 NumSamples 1 (Frame:1).
+[2023.04.25-16.40.09:681][342]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2023.04.25-16.40.09:682][342]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.25-16.40.09:689][342]LogSlate: Window 'CrystalCavern Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2023.04.25-16.40.09:721][342]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.04.25-16.40.09:721][342]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2023.04.25-16.40.09:783][346]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2023.04.25-16.40.42:231][237]BlueprintLog: New page: Compile BP_WinVolume
+[2023.04.25-16.40.42:886][303]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Actors/Volumes/BP_WinVolume" FILE="../../../../../../GameDev/CrystalCavern/Content/Blueprints/Actors/Volumes/BP_WinVolume.uasset" SILENT=true
+[2023.04.25-16.40.42:898][303]LogSavePackage: Moving '../../../../../../GameDev/CrystalCavern/Saved/BP_WinVolume63096E774DF35ABD7A6F439F7EB541D0.tmp' to '../../../../../../GameDev/CrystalCavern/Content/Blueprints/Actors/Volumes/BP_WinVolume.uasset'
